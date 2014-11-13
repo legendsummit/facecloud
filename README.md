@@ -8,9 +8,10 @@ thinkphp:http://www.thinkphp.cn/document/index.html
 七牛服务器:http://developer.qiniu.com/docs/v6/sdk/php-sdk.html
 今天会把系统的整个架构搭建出来，到时候进行分工。
 #创建数据库用户
-##用户名:legendcloud  密码:legend ,通过以下方式创建
-##1.命令行下登陆root用户,然后依次输入以下指令
-##2.insert into mysql.user(Host,User,Password) values("localhost","legendcloud",password("legend"));
-##3.flush privileges;
-##4.grant all privileges on facecloud.* to legendcloud@localhost identified by 'legend';
-##5.flush privileges;
+###用户名:legendcloud  密码:legend ,通过以下方式创建
+###1.命令行下登陆root用户,然后依次输入以下指令
+###2.insert into mysql.user(Host,User,Password) values("localhost","legendcloud",password("legend"));
+###3.flush privileges;
+###4.create database facecloud;
+###5.grant all privileges on facecloud.* to legendcloud@localhost identified by 'legend';
+###6.flush privileges;
