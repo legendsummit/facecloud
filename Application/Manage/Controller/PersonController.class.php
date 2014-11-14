@@ -2,7 +2,7 @@
 
 namespace Manage\Controller;
 use Think\Controller;
-//header("content-type:text/html;charset=utf-8");
+
 class PersonController extends Controller {
     public function index(){
     	$Data = M('person'); // 实例化Data数据模型
@@ -30,7 +30,9 @@ class PersonController extends Controller {
 		//添加用户到数据库
 		$person = M("person");
 		$person->add($data); 
-		//下面需要把face_id放到faceset中
+		//下面需要把person放到group中
+		$group_params=array('group_name'=>'star','person_name'=>$data['name']);
+		$facepp->execute('/group/add_person',$group_params);
 
 	}
 }
