@@ -1,0 +1,76 @@
+body {
+	background-color: rgb(237,237,237);
+	padding:0px;
+	margin:0px;
+}
+div#header {
+	width: 70%;
+	height: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid rgb(209,211,213);	
+}
+div.logo {
+	height:100%;
+	width:30%;
+	float:left;
+}
+div#content {
+	width: 70%;
+	height: 80%;
+	background-color: rgb(211,212,215);
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border: 1px solid rgb(209,211,213);	
+}
+div#left {
+	width: 60%;
+	height: 95%;
+	margin-top: 10px;
+	background-color: rgb(243,244,246);
+	border: 1px solid rgb(209,211,213);
+	margin-left: 10px;
+	border-radius: 10px;
+	float:left;
+}
+div#left-header {
+	width: 100%;
+	height: 12%;
+	background-color: rgb(222,224,230);
+	border-radius: 10px 10px 0px 0px;
+}
+table {
+	color:#757575;
+	width: 100%;
+	height: 80%;
+	background-color: rgb(218,223,246);
+}
+tr {
+	background-color: white;
+}
+tr#th {
+	width: 100%;
+	height: 10%;
+	
+}
+a.view {
+	cursor: pointer;
+}
+div#right {
+	width: 35%;
+	height: 95%;
+	margin-top: 10px;
+	background-color: rgb(243,244,246);
+	border: 1px solid rgb(209,211,213);
+	margin-right: 10px;
+	border-radius: 10px;
+	float:right;
+}
+div#right-header {
+	width: 100%;
+	height: 12%;
+	background-color: rgb(222,224,230);
+	border-radius: 10px 10px 0px 0px;
+}

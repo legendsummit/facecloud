@@ -1,0 +1,56 @@
+
+<html>
+ <head>
+   <title>Select Data</title>
+   <link rel="stylesheet" type="text/css" href="__PUBLIC__/font-awesome-4.2.0/css/font-awesome.css">
+   <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+   <script type="text/javascript" src="__PUBLIC__/jquery-2.1.1.js"></script>
+   <script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+ </head>
+ <body>
+ 	<div id="header">
+ 		<div class="logo"><h3>logo</h3></div>
+ 	</div>
+ 	<div id="content">
+ 		<div id="left">
+ 			<div id="left-header"></div>
+			<table border="0" cellspacing="1">
+				<tr id="th">
+					<th width="60%">姓名</th>
+					<th width="40%">操作</th>
+				</tr>
+				<volist name="data" id="vo">
+					<tr>
+						<td>&nbsp;&nbsp;<i class="fa fa-square-o"></i>
+							&nbsp;&nbsp;&nbsp;&nbsp;{$name=$vo.name}
+						</td>
+						<?php
+					 		$urls=getPersonImageUrl($name);
+					 		$images[$name]=$urls[0];
+					 	?>
+						<td align="center">
+							<a href="{:U('add_image',array('name'=>$name))}">增加图片</a><br>
+							<a class="view" name="<?php echo $name ?>">删除</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $name ?>">修改</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $name ?>">预览</a>
+						</td>
+					</tr>
+				</volist>
+			</table>		    				
+ 		</div>
+ 		<div id="right">
+ 			<div id="right-header"></div>
+ 			<div>
+ 				
+ 				<?php foreach ($images as $name): ?>
+ 					{$name}
+ 					<img src="<?php echo $name ?>">
+ 				<?php endforeach ?>
+ 			</div>
+ 			<script type="text/javascript">
+ 				
+ 			</script>
+ 		</div>
+ 	</div>
+ </body>
+</html> 
