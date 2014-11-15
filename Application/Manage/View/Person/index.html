@@ -1,4 +1,3 @@
-
 <html>
  <head>
    <title>Select Data</title>
@@ -13,43 +12,63 @@
  	</div>
  	<div id="content">
  		<div id="left">
- 			<div id="left-header"></div>
+ 			<div id="left-header">
+ 				<form action="#" method="post">
+	 				<div class="input">
+	 					<input type="text" name="name" placeholder="请输入搜索姓名">
+	 				</div>
+	 				<div class="search">
+	 					<a class="search-icon"><i class="fa fa-search"></i></a>
+	 				</div>
+ 				</form>
+ 			</div>
 			<table border="0" cellspacing="1">
 				<tr id="th">
-					<th width="60%">姓名</th>
-					<th width="40%">操作</th>
+					<th width="50%">姓名</th>
+					<th width="50%">操作</th>
 				</tr>
 				<volist name="data" id="vo">
 					<tr>
-						<td>&nbsp;&nbsp;<i class="fa fa-square-o"></i>
-							&nbsp;&nbsp;&nbsp;&nbsp;{$name=$vo.name}
+						<td>&nbsp;&nbsp;<i class="fa fa-user"></i></i>
+							&nbsp;&nbsp;&nbsp;&nbsp;{$vo.name}
 						</td>
 						<?php
-					 		$urls=getPersonImageUrl($name);
-					 		$images[$name]=$urls[0];
+					 		$urls=getPersonImageUrl($vo['name']);
+					 		$images[$vo['name']]=$urls[0];
 					 	?>
 						<td align="center">
-							<a href="{:U('add_image',array('name'=>$name))}">增加图片</a><br>
-							<a class="view" name="<?php echo $name ?>">删除</a>&nbsp;&nbsp;
-							<a class="view" name="<?php echo $name ?>">修改</a>&nbsp;&nbsp;
-							<a class="view" name="<?php echo $name ?>">预览</a>
+							<a href="{:U('add_image',array('name'=>$vo['name']))}">上传</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $vo['name'] ?>">删除</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $vo['name'] ?>">修改</a>&nbsp;&nbsp;
+							<a class="view" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
 						</td>
 					</tr>
 				</volist>
 			</table>		    				
  		</div>
  		<div id="right">
- 			<div id="right-header"></div>
- 			<div>
- 				
- 				<?php foreach ($images as $name): ?>
- 					{$name}
- 					<img src="<?php echo $name ?>">
+ 			<div id="right-header">
+ 				未选择人物
+ 			</div>
+ 			<div class="image">				
+ 				<?php foreach ($images as $val): ?>
+ 					<img class="img" src="<?php echo $val ?>" width="180">
  				<?php endforeach ?>
  			</div>
- 			<script type="text/javascript">
- 				
- 			</script>
+ 			<div class="introduce">
+ 				<volist name="data" id="vo">
+ 					<?php
+					 		$url=getPersonImageUrl($vo['name']);
+					 		$image[$vo['name']]=$url[0];
+					 ?>
+ 					<div class="p" name="<?php echo $image[$vo['name']] ?>">
+ 						<p class="name">{$vo.name}</p>
+	 					<p>性别：{$vo.sex}</p>
+	 					<p>职业：{$vo.profession}</p>
+	 					<p>简介：{$vo.introduce}</p>
+ 					</div>
+ 				</volist>
+ 			</div>
  		</div>
  	</div>
  </body>
