@@ -15,14 +15,8 @@ class PersonController extends Controller {
 	public function create_handle(){
 		$facepp = new \Org\Util\Facepp();
 		$data=I('post.');
-		var_dump($data);
-		echo '<br><br>';
-		//url需要从用户传入
-		$url="http://summitfox.qiniudn.com/20141102084643851.jpg";
-		$response=getface($url);
-	    $face_id=$response[0]['face_id'];
 	    //person信息
-		$person_params=array('person_name'=>$data['name'],'face_id'=>$face_id);
+		$person_params=array('person_name'=>$data['name']);
 		$responseperson=$facepp->execute('/person/create',$person_params);
 		$responseperson=json_decode($responseperson['body'],true);
 		//获得person_id
@@ -34,5 +28,25 @@ class PersonController extends Controller {
 		$group_params=array('group_name'=>'star','person_name'=>$data['name']);
 		$facepp->execute('/group/add_person',$group_params);
 
+	}
+	public function add_image(){
+		$this->name=I('name');
+		$this->time=time();
+		$this->display();
+	}
+	public function add_image_handle(){
+		$facepp = new \Org\Util\Facepp();
+		$time=I('time');
+		$person_name=I('name');
+		$QINIURUL="http://legend-face.qiniudn.com/";
+		$url=$QINIURUL.$time;
+		$response=getface($url);
+	    $face_id=$response[0]['face_id'];
+	    $params=array('face_id'=>$face_id,'person_name'=>$person_name);
+	    $response=$facepp->execute('/person/add_face',$params);
+	    if($response['http_code']==200){
+	    	$this->redirect('Manage/Person/add_image', 
+	    		array('name' => $person_name), 0.5, 'success!');
+	    }
 	}
 }

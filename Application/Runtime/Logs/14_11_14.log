@@ -83,3 +83,2840 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001611s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
 
+[ 2014-11-14T09:58:22+08:00 ] ::1 /facecloud/index.php/Manage/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007793s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2014-11-14T10:10:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/create_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007297s ]
+SQL: INSERT INTO `fl_person` (`name`,`sex`,`profession`,`introduce`,`person_id`) VALUES ('梁朝伟','男','歌手、演员','著名歌手','ec12c6cadbec5aa65577558f8b656350') [ RunTime:0.102545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2014-11-14T10:40:57+08:00 ] ::1 /facecloud/index.php/Manage/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006790s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2014-11-14T10:41:48+08:00 ] ::1 /facecloud/index.php/Manage/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010267s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2014-11-14T10:44:04+08:00 ] ::1 /facecloud/index.php/Manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2014-11-14T11:23:56+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-11-14T11:24:30+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+
+[ 2014-11-14T11:25:26+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2014-11-14T11:25:38+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2014-11-14T11:25:39+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/name/zhoujielun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+
+[ 2014-11-14T11:26:35+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/name/zhoujielun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+
+[ 2014-11-14T11:27:40+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/name/zhoujielun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+
+[ 2014-11-14T11:27:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/name/zhoujielun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+
+[ 2014-11-14T11:27:53+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007074s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2014-11-14T11:27:57+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2014-11-14T11:27:58+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/name/zhouji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+
+[ 2014-11-14T12:02:03+08:00 ] ::1 /facecloud/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_test` [ RunTime:0.002870s ]
+ERR: 1146:Table 'facecloud.fl_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fl_test`
+SQL: SELECT * FROM `fl_test`  [ RunTime:0.000282s ]
+ERR: 1146:Table 'facecloud.fl_test' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fl_test` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2014-11-14T12:02:05+08:00 ] ::1 /facecloud/index.php/Manage/Person/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2014-11-14T12:02:24+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+ERR: 模板不存在:./Application/Manage/View/Person/add_image.html
+
+[ 2014-11-14T12:03:07+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2014-11-14T12:05:14+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2] require_once(qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:07:27+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:08:33+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+ERR: 非法操作:add_image.php
+
+[ 2014-11-14T12:08:52+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+ERR: 模板不存在:./Application/Manage/View/Person/add_image.html
+
+[ 2014-11-14T12:10:20+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+ERR: 模板不存在:./Application/Manage/View/./Template/Public/add_image.php.html
+
+[ 2014-11-14T12:11:22+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+ERR: 模板不存在:./Application/Manage/View/Person/add_image.html
+
+[ 2014-11-14T12:11:35+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:12:58+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+
+[ 2014-11-14T12:13:06+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+
+[ 2014-11-14T12:13:26+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-11-14T12:31:00+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:34:39+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2] require_once(facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:35:59+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:37:56+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:37:58+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:37:59+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+ERR: 非法操作:add_image.php
+
+[ 2014-11-14T12:38:04+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:40:25+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:40:33+08:00 ] ::1 /facecloud/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_test` [ RunTime:0.007617s ]
+ERR: 1146:Table 'facecloud.fl_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fl_test`
+SQL: SELECT * FROM `fl_test`  [ RunTime:0.000719s ]
+ERR: 1146:Table 'facecloud.fl_test' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fl_test` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2014-11-14T12:40:39+08:00 ] ::1 /facecloud/index.php/Manage/Person/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2014-11-14T12:40:45+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:43:37+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:43:39+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:43:45+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:44:15+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:48:36+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+
+[ 2014-11-14T12:48:45+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+
+[ 2014-11-14T12:51:07+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-11-14T12:52:31+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+
+[ 2014-11-14T12:52:33+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+
+[ 2014-11-14T12:52:37+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009093s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2014-11-14T12:52:43+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-11-14T12:55:49+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+
+[ 2014-11-14T12:55:52+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+
+[ 2014-11-14T12:55:54+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+
+[ 2014-11-14T12:55:58+08:00 ] ::1 /facecloud/index.php/Manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2014-11-14T12:56:07+08:00 ] ::1 /facecloud/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_test` [ RunTime:0.006698s ]
+ERR: 1146:Table 'facecloud.fl_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fl_test`
+SQL: SELECT * FROM `fl_test`  [ RunTime:0.000785s ]
+ERR: 1146:Table 'facecloud.fl_test' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fl_test` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2014-11-14T12:56:11+08:00 ] ::1 /facecloud/index.php/Manage/Person/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2014-11-14T12:56:16+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+
+[ 2014-11-14T12:57:02+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2] include_once(php.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening 'php.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:57:04+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2] include_once(php.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening 'php.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:57:07+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008408s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2014-11-14T12:57:10+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2] include_once(php.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening 'php.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:57:57+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2] include_once(php.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening 'php.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:59:39+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2] include_once(/facecloud/Public./php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public./php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:59:40+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [2] include_once(/facecloud/Public./php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public./php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T12:59:44+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003324s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2014-11-14T12:59:48+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2] include_once(/facecloud/Public./php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public./php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:00:26+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2] include_once(/facecloud/Public./php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public./php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:00:30+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2] include_once(/facecloud/Public./php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public./php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:00:33+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006754s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002226s ]
+
+[ 2014-11-14T13:00:39+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2] include_once(/facecloud/Public./php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public./php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:01:18+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:02:27+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:02:29+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2] include_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+NOTIC: [2] include_once(): Failed opening '/facecloud/Public/php/qiniu/rs.php' for inclusion (include_path='.;C:\php\pear') F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:03:04+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:07:42+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:07:49+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:07:53+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008556s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002199s ]
+
+[ 2014-11-14T13:07:58+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2] require_once(/facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:09:14+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] require_once(facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:10:05+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] require_once(facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:10:07+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] require_once(facecloud/Public/php/qiniu/rs.php): failed to open stream: No such file or directory F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+
+[ 2014-11-14T13:10:50+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+
+[ 2014-11-14T13:11:25+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2014-11-14T13:27:59+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2014-11-14T13:30:26+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-11-14T13:31:04+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined variable: key1 F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.547852s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.548376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002236s ]
+
+[ 2014-11-14T15:50:47+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-11-14T15:52:01+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+
+[ 2014-11-14T15:52:38+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006912s ]
+
+[ 2014-11-14T16:47:33+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+ERR: 模板不存在:./Application/Manage/View/Person/1415954853.html
+
+[ 2014-11-14T16:48:19+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2014-11-14T16:48:58+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000899s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2014-11-14T16:51:26+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2014-11-14T16:51:27+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2014-11-14T16:51:29+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2014-11-14T16:51:41+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2014-11-14T16:51:45+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2014-11-14T16:51:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415955105.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+
+[ 2014-11-14T16:51:51+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2014-11-14T16:52:01+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415955111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+
+[ 2014-11-14T16:53:17+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-11-14T16:53:59+08:00 ] ::1 /facecloud/index.php/Manage/person/add_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2014-11-14T16:57:46+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.080693s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 8 行.
+NOTIC: [8] Undefined variable: vo F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 8 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 8 行.
+NOTIC: [8] Undefined variable: vo F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2014-11-14T16:58:19+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007925s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003150s ]
+
+[ 2014-11-14T16:58:28+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009878s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2014-11-14T16:58:30+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image.htmlArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: 非法操作:add_image.htmlArray
+
+[ 2014-11-14T17:00:07+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009930s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+
+[ 2014-11-14T17:00:18+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003148s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-11-14T17:00:19+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2014-11-14T17:00:33+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2014-11-14T17:00:44+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002268s ]
+
+[ 2014-11-14T17:01:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+
+[ 2014-11-14T17:02:09+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+
+[ 2014-11-14T17:02:11+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009291s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2014-11-14T17:02:11+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/234.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+
+[ 2014-11-14T17:02:26+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008291s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2014-11-14T17:02:27+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+
+[ 2014-11-14T17:03:10+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+
+[ 2014-11-14T17:03:12+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009305s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2014-11-14T17:03:13+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+
+[ 2014-11-14T17:03:45+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-11-14T17:03:47+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008126s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+
+[ 2014-11-14T17:04:09+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006754s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002063s ]
+
+[ 2014-11-14T17:04:53+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007378s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2014-11-14T17:05:06+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007061s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: name; F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Undefined index: name; F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+NOTIC: [8] Undefined index: name; F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2014-11-14T17:05:17+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007433s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2014-11-14T17:05:25+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+
+[ 2014-11-14T17:05:28+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+
+[ 2014-11-14T17:05:58+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006904s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-11-14T17:06:00+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Arrayname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+
+[ 2014-11-14T17:06:28+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010451s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+NOTIC: [8] Array to string conversion F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-11-14T17:06:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Array.name.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+
+[ 2014-11-14T17:06:55+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/Array.name.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+
+[ 2014-11-14T17:06:57+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008910s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2014-11-14T17:06:57+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+
+[ 2014-11-14T17:07:23+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008011s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2014-11-14T17:07:24+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-11-14T17:07:42+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007401s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2014-11-14T17:07:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2014-11-14T17:08:25+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008591s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2014-11-14T17:08:26+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2014-11-14T17:08:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956106.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+
+[ 2014-11-14T17:09:03+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2014-11-14T17:09:04+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956143/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-11-14T17:19:13+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2014-11-14T17:19:15+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956753/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2014-11-14T17:19:36+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956753/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002400s ]
+
+[ 2014-11-14T17:19:38+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956753/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2014-11-14T17:19:40+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956753/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2014-11-14T17:20:04+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956753/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2014-11-14T17:21:06+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2014-11-14T17:21:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956866/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2014-11-14T17:22:51+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956866/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002238s ]
+
+[ 2014-11-14T17:23:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956866/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2014-11-14T17:26:18+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415956866/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2014-11-14T17:27:43+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008071s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2014-11-14T17:27:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2014-11-14T17:28:01+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957267/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 42 行.
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2014-11-14T17:29:54+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010319s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2014-11-14T17:29:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2014-11-14T17:30:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957396/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 42 行.
+
+[ 2014-11-14T17:30:44+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957396/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 43 行.
+
+[ 2014-11-14T17:30:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2014-11-14T17:31:02+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957450/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+
+[ 2014-11-14T17:31:15+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957450/name/%E9%82%93%E7%B4%AB%E6%A3%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+
+[ 2014-11-14T17:31:57+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007983s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2014-11-14T17:31:58+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2014-11-14T17:32:05+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957518/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2014-11-14T17:34:22+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957518/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+
+[ 2014-11-14T17:35:13+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957518/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Undefined index: face F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002611s ]
+
+[ 2014-11-14T17:36:02+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957518/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2014-11-14T17:37:15+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2014-11-14T17:37:30+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957835/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2014-11-14T17:37:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2014-11-14T17:37:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957863/name/%E6%A2%81%E6%9C%9D%E4%BC%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2014-11-14T17:39:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\a4205f6dfb0691bd67251a00cd1a86c0.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2014-11-14T17:39:38+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957969/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2014-11-14T17:40:17+08:00 ] ::1 /facecloud/index.php/Manage/Person/add_image_handle/time/1415957969/name/%E5%AD%99%E7%87%95%E5%A7%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+

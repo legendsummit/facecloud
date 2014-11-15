@@ -6,6 +6,11 @@ class GroupController extends Controller {
     public function index(){
     	$this->display();
 	}
+	public function show(){
+		$Data = M('person'); // 实例化Data数据模型
+        $this->data = $Data->select();
+    	$this->display();
+	}
 	public function create(){
 		$this->display();
 	}

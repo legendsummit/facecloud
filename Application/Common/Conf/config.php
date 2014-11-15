@@ -8,4 +8,9 @@ return array(
 	'DB_USER'   => 'legendcloud', // 用户名
 	'DB_PWD'    => 'legend', // 密码
 	'DB_PREFIX' => 'fl_', // 数据库表前缀
+
+	'__PUBLIC__'=>ROOT.'/Public',
+
+	//七牛云存储地址
+	'__QINIUURL__'=>'summitfox.qiniudn.com',
 );
