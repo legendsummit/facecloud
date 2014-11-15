@@ -4,7 +4,7 @@
  	<title>上传图片</title>
  </head>
  <body>
- 	注意:必须上传完图片后才可添加到person<br>
+ 	注意:必须上传完图片后才可添加到明星<br>
  	<?php 
  		require_once("Public/php/qiniu/rs.php");
 		$accessKey = 'O382ET2CmCVfdylV3kK31uQQacE595YNm8hOrBf5';
@@ -27,7 +27,11 @@
 	    	</li>
 	    </ul>
 	</form>
-	上传完成后请等待2-3秒后再添加，否则可能添加失败
+	<br>
+	上传完成后请等待1-2秒后再添加，否则可能添加失败
 	<a href="{:U(add_image_handle,array('time'=>$time,'name'=>$name))}">添加图片到{$name}</a>
+	<br>
+	<br>
+	<a href="{:U('index')}">返回首页</a>
  </body>
  </html>

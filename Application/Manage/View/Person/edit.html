@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>修改</title>
+</head>
+<body>
+	<form action="{:U('edit_handle')}" method="post">	
+		<input type="hidden" name="id" value="{$data['id']}">
+		名称:<input type="text"  name="name" value="{$data['name']}" /><br>
+		性别:<input type="radio" name="sex" value="M" 
+			<eq name='data["sex"]' value='M'>checked="checked"</eq> /> 男
+		<input type="radio" name="sex" value="W"  
+			<eq name='data["sex"]' value='W'>checked="checked"</eq> /> 女<br>
+		职业:<input type="text"  name="profession" value="{$data['profession']}" /><br> 
+		简介:<textarea name="introduce" >{$data['introduce']}</textarea><br>
+		<input type="submit" value="修改" />
+	</form>
+	<a href="{:U('index')}">返回首页</a>
+</body>
+</html>
