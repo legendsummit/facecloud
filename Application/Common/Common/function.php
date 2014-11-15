@@ -17,6 +17,6 @@
           $face_info = json_decode($face_info['body'],1);
           $urls[$i++]=$face_info['face_info'][0]['url'];
     	}
-    	var_dump($urls);
+    	return($urls);
 	}
 ?>

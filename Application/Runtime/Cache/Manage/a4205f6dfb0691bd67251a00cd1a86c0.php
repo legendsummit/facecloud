@@ -19,6 +19,7 @@
 	    	</li>
 	    </ul>
 	</form>
+	上传完成后请等待2-3秒后再添加，否则可能添加失败
 	<a href="<?php echo U(add_image_handle,array('time'=>$time,'name'=>$name));?>">添加图片到<?php echo ($name); ?></a>
  </body>
  </html>

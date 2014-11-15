@@ -18,6 +18,8 @@ class PersonController extends Controller {
 	    //person信息
 		$person_params=array('person_name'=>$data['name']);
 		$responseperson=$facepp->execute('/person/create',$person_params);
+		if($response['http_code']!=200)
+			$this->error('创建失败，名字已存在或非法,请重新创建','create');
 		$responseperson=json_decode($responseperson['body'],true);
 		//获得person_id
 		$data['person_id']=$responseperson['person_id'];
@@ -27,6 +29,7 @@ class PersonController extends Controller {
 		//下面需要把person放到group中
 		$group_params=array('group_name'=>'star','person_name'=>$data['name']);
 		$facepp->execute('/group/add_person',$group_params);
+		$this->success('新增成功', 'index');
 
 	}
 	public function add_image(){
@@ -46,7 +49,9 @@ class PersonController extends Controller {
 	    $response=$facepp->execute('/person/add_face',$params);
 	    if($response['http_code']==200){
 	    	$this->redirect('Manage/Person/add_image', 
-	    		array('name' => $person_name), 0.5, 'success!');
+	    		array('name' => $person_name), 0.5, '上传成功!');
+	    }else {
+	    	print_r($response);
 	    }
 	}
 }

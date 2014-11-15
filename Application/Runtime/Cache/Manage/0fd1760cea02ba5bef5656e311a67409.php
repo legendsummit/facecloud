@@ -8,5 +8,6 @@
     <a href="<?php echo U('add_image',array('name'=>$name));?>">增加图片</a><br>
     <?php
  $urls=getPersonImageUrl($name); var_dump($urls); endforeach; endif; else: echo "" ;endif; ?>
+    <a href="<?php echo U('create');?>">创建新明星</a>
  </body>
 </html>
