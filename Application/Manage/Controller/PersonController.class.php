@@ -5,9 +5,15 @@ use Think\Controller;
 
 class PersonController extends Controller {
     public function index(){
-    	$Data = M('person'); // 实例化Data数据模型
-        $this->data = $Data->select();
-    	$this->display();
+    	$Data = M('person'); // 实例化Data数据对象
+		$count      = $Data->count();// 查询满足要求的总记录数 $map表示查询条件
+		$Page       = new \Think\Page($count,5);// 实例化分页类 传入总记录数
+		$show       = $Page->show();// 分页显示输出
+		// 进行分页数据查询
+		$list = $Data->limit($Page->firstRow.','.$Page->listRows)->select();
+		$this->assign('data',$list);// 赋值数据集
+		$this->assign('page',$show);// 赋值分页输出
+		$this->display(); // 输出模板
 	}
 	public function search(){
 		$Data=M('person');

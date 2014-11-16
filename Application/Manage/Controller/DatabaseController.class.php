@@ -4,12 +4,6 @@ namespace Manage\Controller;
 use Think\Controller;
 class DatabaseController extends Controller {
     public function index(){
-    	$urls=getPersonImageUrl('成龙');
-    	var_dump($urls);
-    	$urls=getPersonImageUrlFromAPI('成龙');
-    	var_dump($urls);
-    	die();
-    	$this->display();
 	}
 	//将person_images同步到本地数据库fl_imageurls中
 	public function peopleimages(){

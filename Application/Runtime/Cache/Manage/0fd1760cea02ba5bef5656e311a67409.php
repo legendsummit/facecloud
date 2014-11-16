@@ -65,5 +65,6 @@
  			</div>
  		</div>
  	</div>
+ 	<div class="result page"><?php echo ($page); ?></div>
  </body>
 </html>

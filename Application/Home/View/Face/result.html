@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索结果</title>
+</head>
+<body>
+	<h3>搜索结果</h3>
+	<volist name="result" id="vo">
+		姓名:{$vo.name}<br>
+		职业:{$vo.profession}<br>
+		简介:{$vo.introduce}<br>
+		相似度:{$vo.confidence}<br><br>
+		</volist>
+</body>
+</html>

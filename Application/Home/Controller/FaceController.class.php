@@ -35,7 +35,8 @@ class FaceController extends Controller {
     			$result[$i]['confidence']=$vo['confidence'];
     			$i++;	
 			}
-			var_dump($result);
+			$this->result=$result;
+			$this->display('result');
 		}
 	}
 	
