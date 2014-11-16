@@ -31,7 +31,7 @@ class Page{
         'first'  => '首页',
         'last'   => '尾页',
         //%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%;
-        'theme'  => ' %HEADER%  %FIRST% %UP_PAGE%  %LINK_PAGE% %DOWN_PAGE% %NOW_PAGE%/%TOTAL_PAGE% 页  %END%',
+        'theme'  => '%FIRST% %UP_PAGE%  %LINK_PAGE% %DOWN_PAGE% %NOW_PAGE%/%TOTAL_PAGE% 页  %END%',
     );
 
     /**
