@@ -9,6 +9,10 @@
 		职业:<?php echo ($data['profession']); ?><br>
 		简介:<br><?php echo ($data['introduce']); ?><br>
 		<br>______接下来显示图片_________<br>
+	
+	<?php $urls=getPersonImageUrl($data['name']);?>
+	<?php if(is_array($urls)): foreach($urls as $key=>$url): ?><img src="<?php echo ($url); ?>" width="150" height="150"><?php endforeach; endif; ?>
+	<br>
 	<a href="<?php echo U(edit,array('id'=>$data['id']));?>">修改</a>
 	<a href="<?php echo U('index');?>">返回首页</a>
 </body>

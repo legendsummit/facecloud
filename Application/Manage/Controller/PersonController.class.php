@@ -99,6 +99,42 @@ class PersonController extends Controller {
 	    	print_r($response);
 	    }
 	}
+	public function del_image(){
+		$facepp = new \Org\Util\Facepp();
+		$id=I('id');
+		$Data=M('person');
+		$person_data=$Data->where(array('id'=>$id))->find();
+		$name=$person_data['name'];
+		$img_key=I('img_key');
+		$QINIURUL="http://legend-face.qiniudn.com/";
+		$url=$QINIURUL.$img_key;
+		//获得人物信息
+		$response=getResponse('/person/get_info',array('person_name'=>$name));
+		//获得人物所有的脸型
+		$faces=$response['face'];
+		//查找对应URL并删除
+		foreach ($faces as $face) {
+			$faceresponse=getResponse('/info/get_face',
+				array('face_id'=>$face['face_id']));
+			$face_url=$faceresponse['face_info'][0]['url'];
+			if(strcmp($url,$face_url)==0){
+				//将图片从FACE++中删除
+				$params=array('person_name'=>$name,'face_id'=>$face['face_id']);
+				$result=getResponse('/person/remove_face',$params);
+				if($result['http_code']!=200){
+					//将图片从本地数据库中删除
+					$Data=M('imageurls');
+					$Data->where(array('name'=>$name,'url'=>$url))->delete();
+					$this->redirect('edit',array('id'=>$id));
+				}
+				else{
+					print_r($result);
+				}
+				break;
+			}
+			
+		}
+	}
 	public function delete(){
 		$facepp=new \Org\Util\Facepp();
 		$name=I('name');
@@ -107,6 +143,9 @@ class PersonController extends Controller {
 		//从数据库中删除人物信息
 		$Person=M('person');
 		$Person->where(array('name'=>$name))->delete(); 
+		//从数据库删除照片信息
+		$Image=M('imageurls');
+		$Image->where(array('name'=>$name))->delete();
 		$this->redirect('index');
 	}
 }

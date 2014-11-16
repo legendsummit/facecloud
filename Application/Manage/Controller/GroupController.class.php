@@ -29,7 +29,7 @@ class GroupController extends Controller {
 		if($response['result']['success'])
 			$this->success('训练成功','index');
 		else 
-			$this->error('训练失败','index',1);
+			$this->error('训练失败,当前服务正被其他用户调用','index',1);
 	}
 	
 }

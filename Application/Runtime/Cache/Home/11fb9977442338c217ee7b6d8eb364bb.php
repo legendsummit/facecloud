@@ -9,6 +9,6 @@
 	<?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>姓名:<?php echo ($vo["name"]); ?><br>
 		职业:<?php echo ($vo["profession"]); ?><br>
 		简介:<?php echo ($vo["introduce"]); ?><br>
-		相似度:<?php echo ($vo["confidence"]); ?><br><?php endforeach; endif; else: echo "" ;endif; ?>
+		相似度:<?php echo ($vo["confidence"]); ?><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
 </html>

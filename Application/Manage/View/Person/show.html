@@ -9,6 +9,12 @@
 		职业:{$data['profession']}<br>
 		简介:<br>{$data['introduce']}<br>
 		<br>______接下来显示图片_________<br>
+	
+	<?php $urls=getPersonImageUrl($data['name']);?>
+	<foreach name="urls" item="url" >
+		<img src="{$url}" width="150" height="150">
+	</foreach>
+	<br>
 	<a href="{:U(edit,array('id'=>$data['id']))}">修改</a>
 	<a href="{:U('index')}">返回首页</a>
 </body>

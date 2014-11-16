@@ -18,13 +18,6 @@
 	    	</li>
 	    </ul>
 	</form>
-<<<<<<< HEAD
-=======
-	<br>
-	<?php
- $QINIURUL="http://legend-face.qiniudn.com/"; $url=$QINIURUL.$time; ?>
-	上传完成后请等待1-2秒后再添加，否则可能添加失败
->>>>>>> 988e12e6f20763a7941d3203f7c30bf6b8acf6da
 	<a href="<?php echo U(add_image_handle,array('time'=>$time,'name'=>$name));?>">添加图片到<?php echo ($name); ?></a>
 	<br>
 	<br>

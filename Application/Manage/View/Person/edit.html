@@ -15,6 +15,12 @@
 		简介:<textarea name="introduce" >{$data['introduce']}</textarea><br>
 		<input type="submit" value="修改" />
 	</form>
+	<?php $urls=getPersonImageUrl($data['name']);?>
+	<foreach name="urls" item="url" >
+		<?php $img_key=substr($url, 31)?>
+		<img src="{$url}" width="150" height="150"><a href="{:U('del_image',array('id'=>$data['id'],'img_key'=>$img_key))}">删除</a><br>
+	</foreach>
+	<br>
 	<a href="{:U('index')}">返回首页</a>
 </body>
 </html>

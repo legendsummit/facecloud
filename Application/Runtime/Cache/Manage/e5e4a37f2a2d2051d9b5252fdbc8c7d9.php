@@ -15,6 +15,10 @@
 		简介:<textarea name="introduce" ><?php echo ($data['introduce']); ?></textarea><br>
 		<input type="submit" value="修改" />
 	</form>
+	<?php $urls=getPersonImageUrl($data['name']);?>
+	<?php if(is_array($urls)): foreach($urls as $key=>$url): $img_key=substr($url, 31)?>
+		<img src="<?php echo ($url); ?>" width="150" height="150"><a href="<?php echo U('del_image',array('id'=>$data['id'],'img_key'=>$img_key));?>">删除</a><br><?php endforeach; endif; ?>
+	<br>
 	<a href="<?php echo U('index');?>">返回首页</a>
 </body>
 </html>
