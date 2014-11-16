@@ -20,5 +20,16 @@ class GroupController extends Controller {
 		$params=array('group_name'=>$name);
 		$response=$facepp->execute('/group/create',$params);
 	}
+	public function train(){
+		$group_name="star";
+		$params=array('group_name'=>$group_name);
+		$response=getResponse('/train/identify',$params);
+		$paramsession['session_id']=$response['session_id'];
+		$response=getResponse('/info/get_session',$paramsession);
+		if($response['result']['success'])
+			$this->success('训练成功','index');
+		else 
+			$this->error('训练失败','index',1);
+	}
 	
 }

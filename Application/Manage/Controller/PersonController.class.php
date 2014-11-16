@@ -9,6 +9,15 @@ class PersonController extends Controller {
         $this->data = $Data->select();
     	$this->display();
 	}
+	public function search(){
+		$Data=M('person');
+		$name=I('name');
+		$data=$Data->where(array('name'=>$name))->find();
+		if($data)
+			$this->redirect('Manage/Person/show',array('id' => $data['id']), 0);
+		else
+			$this->error('未找到人物','index',1);
+	}
 	public function create(){
 		$this->display();
 	}
@@ -62,11 +71,15 @@ class PersonController extends Controller {
 		$person_name=I('name');
 		$QINIURUL="http://legend-face.qiniudn.com/";
 		$url=$QINIURUL.$time;
+		//将url上传到feace++
 		$response=getface($url);
 	    $face_id=$response[0]['face_id'];
 	    $params=array('face_id'=>$face_id,'person_name'=>$person_name);
 	    $response=$facepp->execute('/person/add_face',$params);
 	    if($response['http_code']==200){
+	    	//将url添加到本地数据库中
+			$ImageUrls=M('imageurls');	//实例化
+			$ImageUrls->add(array('name'=>$person_name,'url'=>$url));
 	    	$this->redirect('Manage/Person/add_image', 
 	    		array('name' => $person_name), 0.5, '上传成功!');
 	    }else {

@@ -13,7 +13,7 @@
  	<div id="content">
  		<div id="left">
  			<div id="left-header">
- 				<form action="#" method="post">
+ 				<form action="<?php echo U(search);?>" method="post">
 	 				<div class="input">
 	 					<input type="text" name="name" placeholder="请输入搜索姓名">
 	 				</div>
@@ -35,8 +35,11 @@
  $urls=getPersonImageUrl($vo['name']); $images[$vo['name']]=$urls[0]; ?>
 						<td align="center">
 							<a href="<?php echo U('add_image',array('name'=>$vo['name']));?>">上传</a>&nbsp;&nbsp;
-							<a class="view" name="<?php echo $vo['name'] ?>">删除</a>&nbsp;&nbsp;
-							<a class="view" name="<?php echo $vo['name'] ?>">修改</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $vo['name'] ?>
+							">删除</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $vo['name'] ?>" 
+							href="<?php echo U('edit',array('id'=>$vo['id']));?>"
+							>修改</a>&nbsp;&nbsp;
 							<a class="view" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
 						</td>
 					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -55,7 +58,7 @@
  				<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $url=getPersonImageUrl($vo['name']); $image[$vo['name']]=$url[0]; ?>
  					<div class="p" name="<?php echo $image[$vo['name']] ?>">
  						<p class="name"><?php echo ($vo["name"]); ?></p>
-	 					<p>性别：<?php echo ($vo["sex"]); ?></p>
+	 					<p>性别：<?php if(($vo['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?></p>
 	 					<p>职业：<?php echo ($vo["profession"]); ?></p>
 	 					<p>简介：<?php echo ($vo["introduce"]); ?></p>
  					</div><?php endforeach; endif; else: echo "" ;endif; ?>

@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>创建人物</title>
+	<title>创建</title>
 </head>
 <body>
 	<form action="<?php echo U('create_handle');?>" method="post">	
