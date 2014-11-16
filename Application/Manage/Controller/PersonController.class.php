@@ -2,7 +2,7 @@
 
 namespace Manage\Controller;
 use Think\Controller;
-
+header("Content-type:text/html;charset=utf-8");
 class PersonController extends Controller {
     public function index(){
     	$Data = M('person'); // 实例化Data数据对象
@@ -27,24 +27,6 @@ class PersonController extends Controller {
 	public function create(){
 		$this->display();
 	}
-	public function edit(){
-		$id=I('id');
-		$Data=M('person');
-		$this->data=$Data->where("id=$id")->find();
-		$this->display();
-	}
-	public function edit_handle(){
-		$person=M('person');
-		$data=I('post.');
-		$person->save($data); // 根据条件保存修改的数据
-		$this->redirect('Manage/Person/show',array('id' => $data['id']), 0);
-	}
-	public function show(){
-		$id=I('id');
-		$Data=M('person');
-		$this->data=$Data->where("id=$id")->find();
-		$this->display();
-	}
 	public function create_handle(){
 		$facepp = new \Org\Util\Facepp();
 		$data=I('post.');
@@ -66,6 +48,31 @@ class PersonController extends Controller {
 			$this->success('新增成功', 'index');
 		}
 	}
+	public function edit(){
+		$id=I('id');
+		$Data=M('person');
+		$this->data=$Data->where("id=$id")->find();
+		$this->display();
+	}
+	public function edit_handle(){
+		$person=M('person');
+		$data=I('post.');
+		$oldperson=$person->where(array('id'=>$data['id']))->find();
+		$name=$oldperson['name'];
+		//修改face++上的信息/person/set_info
+		$facepp = new \Org\Util\Facepp();
+		$params=array('person_name'=>$name,'name'=>$data['name']);
+		$response=$facepp->execute('/person/set_info',$params);
+		$person->save($data); // 根据条件保存修改的数据
+		$this->redirect('Manage/Person/show',array('id' => $data['id']),0);
+	}
+	public function show(){
+		$id=I('id');
+		$Data=M('person');
+		$this->data=$Data->where("id=$id")->find();
+		$this->display();
+	}
+	
 	public function add_image(){
 		$this->name=I('name');
 		$this->time=time();
@@ -91,5 +98,15 @@ class PersonController extends Controller {
 	    }else {
 	    	print_r($response);
 	    }
+	}
+	public function delete(){
+		$facepp=new \Org\Util\Facepp();
+		$name=I('name');
+		//删除FACE++中人物的信息
+		$response=$facepp->execute('/person/delete',array('person_name'=>$name));
+		//从数据库中删除人物信息
+		$Person=M('person');
+		$Person->where(array('name'=>$name))->delete(); 
+		$this->redirect('index');
 	}
 }

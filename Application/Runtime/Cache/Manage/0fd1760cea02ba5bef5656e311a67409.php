@@ -16,7 +16,7 @@
  <body>
  	<div id="header">
  		<div class="logo"><h3>logo</h3></div>
- 	</div>
+	</div>
  	<div id="content">
  		
 	<div id="left">
@@ -41,6 +41,7 @@
 					</td>
 					<?php
  $urls=getPersonImageUrl($vo['name']); $images[$vo['name']]=$urls[0]; ?>
+<<<<<<< HEAD
 					<td align="center">
 						<a href="<?php echo U('add_image',array('name'=>$vo['name']));?>">上传</a>&nbsp;&nbsp;
 						<a class="view" name="<?php echo $vo['name'] ?>
@@ -80,5 +81,41 @@
  		<div id="footer-left">Email：1420646999@qq.com</div>   
  		<div id="footer-right">designed by  legend team<div>
  	</div>
+=======
+						<td align="center">
+							<a href="<?php echo U('add_image',array('name'=>$vo['name']));?>">上传</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $vo['name'] ?>
+							" href="<?php echo U('delete',array('name'=>$vo['name']));?>">删除</a>&nbsp;&nbsp;
+							<a class="view" name="<?php echo $vo['name'] ?>" 
+							href="<?php echo U('edit',array('id'=>$vo['id']));?>"
+							>修改</a>&nbsp;&nbsp;
+							<a class="view" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
+						</td>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+			</table>
+			<div class="result page"><?php echo ($page); ?></div>		    				
+ 		</div>
+ 		<div id="right">
+ 			<div id="right-header">
+ 				未选择人物
+ 			</div>
+ 			<div class="image">				
+ 				<?php foreach ($images as $val): ?>
+ 					<img class="img" src="<?php echo $val ?>" width="180">
+ 				<?php endforeach ?>
+ 			</div>
+ 			<div class="introduce">
+ 				<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $url=getPersonImageUrl($vo['name']); $image[$vo['name']]=$url[0]; ?>
+ 					<div class="p" name="<?php echo $image[$vo['name']] ?>">
+ 						<p class="name"><?php echo ($vo["name"]); ?></p>
+	 					<p>性别：<?php if(($vo['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?></p>
+	 					<p>职业：<?php echo ($vo["profession"]); ?></p>
+	 					<p>简介：<?php echo ($vo["introduce"]); ?></p>
+ 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+>>>>>>> 988e12e6f20763a7941d3203f7c30bf6b8acf6da
  </body>
 </html>
