@@ -9,7 +9,7 @@
  <body>
  	<div id="header">
  		<div class="logo"><h3>logo</h3></div>
- 	</div>
+	</div>
  	<div id="content">
  		<div id="left">
  			<div id="left-header">
@@ -36,14 +36,15 @@
 						<td align="center">
 							<a href="<?php echo U('add_image',array('name'=>$vo['name']));?>">上传</a>&nbsp;&nbsp;
 							<a class="view" name="<?php echo $vo['name'] ?>
-							">删除</a>&nbsp;&nbsp;
+							" href="<?php echo U('delete',array('name'=>$vo['name']));?>">删除</a>&nbsp;&nbsp;
 							<a class="view" name="<?php echo $vo['name'] ?>" 
 							href="<?php echo U('edit',array('id'=>$vo['id']));?>"
 							>修改</a>&nbsp;&nbsp;
 							<a class="view" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
 						</td>
 					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-			</table>		    				
+			</table>
+			<div class="result page"><?php echo ($page); ?></div>		    				
  		</div>
  		<div id="right">
  			<div id="right-header">
@@ -65,6 +66,6 @@
  			</div>
  		</div>
  	</div>
- 	<div class="result page"><?php echo ($page); ?></div>
+ 	
  </body>
 </html>

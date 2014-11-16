@@ -20,6 +20,8 @@
 	    </ul>
 	</form>
 	<br>
+	<?php
+ $QINIURUL="http://legend-face.qiniudn.com/"; $url=$QINIURUL.$time; ?>
 	上传完成后请等待1-2秒后再添加，否则可能添加失败
 	<a href="<?php echo U(add_image_handle,array('time'=>$time,'name'=>$name));?>">添加图片到<?php echo ($name); ?></a>
 	<br>

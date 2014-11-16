@@ -1,17 +1,1 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<table cellpadding=3 cellspacing=5>
-		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-		<td ><?php echo ($vo["name"]); ?></td>
-		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-		<tr>        
-		</tr>
-		</table>
-	<div class="result page"><?php echo ($page); ?></div>
-</body>
-</html>
+<?php if (!defined('THINK_PATH')) exit();?><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>标题</title></head><body>菜单重写<br>左边分栏主内容右边分栏底部</body></html>
