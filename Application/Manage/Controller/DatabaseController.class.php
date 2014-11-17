@@ -4,6 +4,7 @@ namespace Manage\Controller;
 use Think\Controller;
 class DatabaseController extends Controller {
     public function index(){
+        getPersonFaceFromAPI('成龙');
 	}
 	//将person_images同步到本地数据库fl_imageurls中
 	public function peopleimages(){
@@ -15,15 +16,17 @@ class DatabaseController extends Controller {
         $ImageUrls->where('1')->delete(); //删除所有数据
 
         foreach ($people as $person) {
-        	//var_dump($person);
+        	
         	$data=array();
         	$data['name']=$person['name'];
-        	//获取当前person的所有URL
-        	$urls=getPersonImageUrlFromAPI($person['name']);
-        	foreach ($urls as $url) {
-        		$data['url']=$url;
-        		$ImageUrls->add($data);
-        	}
+        	//获取当前person的所有Faces
+            $faces=getPersonFaceFromAPI($person['name']);
+            $i=0;
+            foreach ($faces['url'] as $url) {
+                $data['url']=$url;
+                $data['face_id']=$faces['face_id'][$i++];
+                $ImageUrls->add($data);
+            }
         }
         echo 'success!';
 	}

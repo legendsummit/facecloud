@@ -19,6 +19,21 @@
     	}
     	return($urls);
 	}
+	function getPersonFaceFromAPI($name){
+		$facepp = new \Org\Util\Facepp();
+		$params=array('person_name'=>$name);
+		$response=$facepp->execute('/person/get_info',$params);
+		$data = json_decode($response['body'],1);
+		$i=0;
+		foreach ($data['face'] as $face) {
+          $face_info = $facepp->execute('/info/get_face',array('face_id'=>$face['face_id']));
+          $face_info = json_decode($face_info['body'],1);
+          $faces['face_id'][$i]=$face_info['face_info'][0]['face_id'];
+          $faces['url'][$i]=$face_info['face_info'][0]['url'];
+          $i++;
+    	}
+    	return($faces);
+	}
 	function getPersonImageUrl($name){
 		$ImageUrls=M('imageurls');
 		$datas=$ImageUrls->where(array('name'=>$name))->getField('id,url');

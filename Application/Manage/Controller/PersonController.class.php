@@ -92,7 +92,7 @@ class PersonController extends Controller {
 	    if($response['http_code']==200){
 	    	//将url添加到本地数据库中
 			$ImageUrls=M('imageurls');	//实例化
-			$ImageUrls->add(array('name'=>$person_name,'url'=>$url));
+			$ImageUrls->add(array('name'=>$person_name,'url'=>$url,'face_id'=>$face_id));
 	    	$this->redirect('Manage/Person/add_image', 
 	    		array('name' => $person_name), 0.5, '上传成功!');
 	    }else {
@@ -112,27 +112,19 @@ class PersonController extends Controller {
 		$response=getResponse('/person/get_info',array('person_name'=>$name));
 		//获得人物所有的脸型
 		$faces=$response['face'];
-		//查找对应URL并删除
-		foreach ($faces as $face) {
-			$faceresponse=getResponse('/info/get_face',
-				array('face_id'=>$face['face_id']));
-			$face_url=$faceresponse['face_info'][0]['url'];
-			if(strcmp($url,$face_url)==0){
-				//将图片从FACE++中删除
-				$params=array('person_name'=>$name,'face_id'=>$face['face_id']);
-				$result=getResponse('/person/remove_face',$params);
-				if($result['http_code']!=200){
-					//将图片从本地数据库中删除
-					$Data=M('imageurls');
-					$Data->where(array('name'=>$name,'url'=>$url))->delete();
-					$this->redirect('edit',array('id'=>$id));
-				}
-				else{
-					print_r($result);
-				}
-				break;
-			}
-			
+		//查找对应Face并删除
+		$Image_data=M('imageurls');
+		$image_data=$Image_data->where(array('url'=>$url))->find();
+		//从FACE++中删除
+		$params=array('person_name'=>$name,'face_id'=>$image_data['face_id']);
+		$result=getResponse('/person/remove_face',$params);
+		if($result['http_code']!=200){
+			//将图片从本地数据库中删除
+			$Image_data->where(array('name'=>$name,'url'=>$url))->delete();
+			$this->redirect('edit',array('id'=>$id));
+		}
+		else{
+			print_r($result);
 		}
 	}
 	public function delete(){
@@ -140,12 +132,17 @@ class PersonController extends Controller {
 		$name=I('name');
 		//删除FACE++中人物的信息
 		$response=$facepp->execute('/person/delete',array('person_name'=>$name));
-		//从数据库中删除人物信息
-		$Person=M('person');
-		$Person->where(array('name'=>$name))->delete(); 
-		//从数据库删除照片信息
-		$Image=M('imageurls');
-		$Image->where(array('name'=>$name))->delete();
-		$this->redirect('index');
+		if($response['http_code']==200){
+			//从数据库中删除人物信息
+			$Person=M('person');
+			$Person->where(array('name'=>$name))->delete(); 
+			//从数据库删除照片信息
+			$Image=M('imageurls');
+			$Image->where(array('name'=>$name))->delete();
+			$this->redirect('index');
+		}
+		else{
+			print_r($response);
+		}
 	}
 }

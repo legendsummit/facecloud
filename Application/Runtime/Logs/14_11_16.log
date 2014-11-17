@@ -1867,3 +1867,442 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
 
+[ 2014-11-16T21:21:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 151 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.011237s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003822s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000480s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-11-16T21:22:06+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 151 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008892s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004498s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2014-11-16T21:22:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 151 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003787s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004748s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000408s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李连杰' )  [ RunTime:0.000285s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000242s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000247s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000270s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000249s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '詹姆斯' )  [ RunTime:0.000383s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000547s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000394s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000294s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000250s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李连杰' )  [ RunTime:0.000230s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000336s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000252s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000307s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000254s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '詹姆斯' )  [ RunTime:0.000238s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000240s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000226s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2014-11-16T21:22:42+08:00 ] ::1 /facecloud/index.php/Manage/database/peopleimages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004637s ]
+SQL: SELECT * FROM `fl_person`  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003927s ]
+SQL: DELETE FROM `fl_imageurls` WHERE ( 1 ) [ RunTime:0.182438s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('成龙','http://legend-face.qiniudn.com/1416051655') [ RunTime:0.128960s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('成龙','http://legend-face.qiniudn.com/1416051681') [ RunTime:0.040986s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('成龙','http://legend-face.qiniudn.com/1416051696') [ RunTime:0.066643s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李连杰','http://legend-face.qiniudn.com/1416051718') [ RunTime:0.213058s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李连杰','http://legend-face.qiniudn.com/1416051734') [ RunTime:0.050987s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李连杰','http://legend-face.qiniudn.com/1416051746') [ RunTime:0.032356s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('刘亦菲','http://legend-face.qiniudn.com/1416051778') [ RunTime:0.029187s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('刘亦菲','http://legend-face.qiniudn.com/1416051791') [ RunTime:0.054512s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李冰冰','http://legend-face.qiniudn.com/1416051814') [ RunTime:0.047328s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李冰冰','http://legend-face.qiniudn.com/1416051829') [ RunTime:0.054584s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李冰冰','http://legend-face.qiniudn.com/1416051841') [ RunTime:0.077709s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('李冰冰','http://legend-face.qiniudn.com/1416051853') [ RunTime:0.076731s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('范冰冰','http://legend-face.qiniudn.com/1416051871') [ RunTime:0.091732s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('范冰冰','http://legend-face.qiniudn.com/1416051888') [ RunTime:0.076284s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('范冰冰','http://legend-face.qiniudn.com/1416051899') [ RunTime:0.055634s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('范冰冰','http://legend-face.qiniudn.com/1416051913') [ RunTime:0.065655s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('科比','http://legend-face.qiniudn.com/1416109535') [ RunTime:0.055538s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('科比','http://legend-face.qiniudn.com/1416109554') [ RunTime:0.065453s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('科比','http://legend-face.qiniudn.com/1416109564') [ RunTime:0.088943s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('科比','http://legend-face.qiniudn.com/1416109576') [ RunTime:0.054408s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('詹姆斯','http://legend-face.qiniudn.com/1416109615') [ RunTime:0.080755s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('詹姆斯','http://legend-face.qiniudn.com/1416109634') [ RunTime:0.043190s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('詹姆斯','http://legend-face.qiniudn.com/1416109645') [ RunTime:0.044578s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('詹姆斯','http://legend-face.qiniudn.com/1416109685') [ RunTime:0.043406s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('梁朝伟','http://legend-face.qiniudn.com/1416109713') [ RunTime:0.076637s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('梁朝伟','http://legend-face.qiniudn.com/1416109726') [ RunTime:0.065591s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('梁朝伟','http://legend-face.qiniudn.com/1416109733') [ RunTime:0.055633s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('麦迪','http://legend-face.qiniudn.com/1416109777') [ RunTime:0.053551s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('麦迪','http://legend-face.qiniudn.com/1416109791') [ RunTime:0.066749s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('麦迪','http://legend-face.qiniudn.com/1416109800') [ RunTime:0.043467s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('张伟','http://legend-face.qiniudn.com/1416126497') [ RunTime:0.133572s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('陈赫','http://legend-face.qiniudn.com/1416126825') [ RunTime:0.062788s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('娄艺潇','http://legend-face.qiniudn.com/1416126914') [ RunTime:0.046937s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('刘翔','http://legend-face.qiniudn.com/1416127008') [ RunTime:0.025536s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('林丹','http://legend-face.qiniudn.com/1416127055') [ RunTime:0.034396s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('王浩','http://legend-face.qiniudn.com/1416127096') [ RunTime:0.029308s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('郭晶晶','http://legend-face.qiniudn.com/1416128121') [ RunTime:0.147398s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('姚明','http://legend-face.qiniudn.com/1416128174') [ RunTime:0.308808s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('林书豪','http://legend-face.qiniudn.com/1416131915') [ RunTime:0.137696s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('郭富城','http://legend-face.qiniudn.com/1416131869') [ RunTime:0.051568s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('周杰伦','http://legend-face.qiniudn.com/1416136411') [ RunTime:0.043437s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('邓紫棋','http://legend-face.qiniudn.com/1416136464') [ RunTime:0.043209s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('孙燕姿','http://legend-face.qiniudn.com/1416136520') [ RunTime:0.062162s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('梁咏琪','http://legend-face.qiniudn.com/1416136575') [ RunTime:0.056271s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('光良','http://legend-face.qiniudn.com/1416136619') [ RunTime:0.095702s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('任贤齐','http://legend-face.qiniudn.com/1416136650') [ RunTime:0.045954s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('许嵩','http://legend-face.qiniudn.com/1416136936') [ RunTime:0.062300s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('蔡依林','http://legend-face.qiniudn.com/1416136836') [ RunTime:0.055989s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('王力宏','http://legend-face.qiniudn.com/1416136979') [ RunTime:0.050019s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('梁静茹','http://legend-face.qiniudn.com/1416137006') [ RunTime:0.144970s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('张静初','http://legend-face.qiniudn.com/1416143614') [ RunTime:0.084379s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('张静初','http://legend-face.qiniudn.com/1416143644') [ RunTime:0.054951s ]
+SQL: INSERT INTO `fl_imageurls` (`name`,`url`) VALUES ('张静初','http://legend-face.qiniudn.com/1416143728') [ RunTime:0.053995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2014-11-16T21:23:22+08:00 ] ::1 /facecloud/index.php/Manage/Group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2014-11-16T21:23:23+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+NOTIC: [8] Undefined index: result F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-11-16T21:23:24+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006232s ]
+
+[ 2014-11-16T21:23:25+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+NOTIC: [8] Undefined index: session_id F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 27 行.
+NOTIC: [8] Undefined index: result F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-11-16T21:23:26+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2014-11-16T21:23:27+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003987s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+NOTIC: [8] Undefined index: session_id F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 27 行.
+NOTIC: [8] Undefined index: result F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+
+[ 2014-11-16T21:23:28+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003860s ]
+
+[ 2014-11-16T21:23:29+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2014-11-16T21:23:30+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2014-11-16T21:24:20+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-11-16T21:24:21+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2014-11-16T21:25:07+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2014-11-16T21:25:08+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003964s ]
+
