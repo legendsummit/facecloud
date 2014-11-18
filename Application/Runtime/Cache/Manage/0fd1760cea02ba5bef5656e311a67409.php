@@ -61,7 +61,7 @@
 			<div class="profession one"></div>
 			<div class="introduce one"></div>
 			<div class="detail one">
-				<a class="view" name="<?php echo $vo['name'] ?>" href=<?php echo U('show',array('id'=>$vo['id']));?>>
+				<a class="detail">
 					详情<i class="fa fa-angle-double-right"></i>
 				</a>
 			</div>

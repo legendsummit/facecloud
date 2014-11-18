@@ -9,15 +9,18 @@ $(function(){
 		    	var sex1 = "女";
 		    	if(msg.sex == "M")
 		    		sex1 = "男";
-		    	$('div#right-header').html(msg.name);
-		    	$('div.sex').html(sex1);
-		    	$('div.profession').html(msg.profession);
 
+		    	$('div.image').html('<img src='+msg.url+' height="190px" />');
+		    	$('div#right-header').html(msg.name);
+		    	$('div.sex').html("性别：").append(sex1);
+		    	$('div.profession').html("职业：").append(msg.profession);
+		    	$('div.introduce').html("简介：").append((msg.introduce).substring(0,119));
+		    	$('div.introduce').append("...");
+		    	$("div.detail").css({'display':'block'});
+		    	$('a.detail').attr({"href":"/facecloud/index.php/Manage/Person/show/id/"+id+".html"});
+		    	console.log(id);
 		    }
 		});
-		var url=$(this).attr('url');
-		var imageheight;
-		
-		
+
 	})
 });
