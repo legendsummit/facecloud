@@ -73,7 +73,12 @@ class PersonController extends Controller {
 		$this->data=$Data->where(array('id'=>$id))->find();
 		$this->display();
 	}
-	
+	public function json(){
+		$id=I('id');
+		$Data=M('person');
+		$data=$Data->where(array('id'=>$id))->find();		
+		echo json_encode($data);
+	}
 	public function add_image_handle(){
 		$facepp = new \Org\Util\Facepp();
 		$time=I('time');
