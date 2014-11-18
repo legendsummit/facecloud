@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<volist name="urls" id="url">
+	  <img src="{$url}" >
+	  <a href="{:U('del_image',array('img_key'=>substr($url,31),'id'=>$pid))}">删除</a><br>
+	</volist>
+</body>
+</html>

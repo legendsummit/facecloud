@@ -67,6 +67,14 @@ class PersonController extends Controller {
 		$person->save($data); // 根据条件保存修改的数据
 		$this->redirect('Manage/Person/show',array('id' => $data['id']),0);
 	}
+	public function showimages(){
+		$pid=I('pid');
+		$ImageUrls=M('imageurls');
+		$urls=$ImageUrls->where(array('pid'=>$pid))->getField('id,url');
+		$this->urls=$urls;
+		$this->pid=$pid;
+		$this->display('imges');
+	}
 	public function show(){
 		$id=I('id');
 		$Data=M('person');
@@ -116,6 +124,9 @@ class PersonController extends Controller {
 		$Data=M('person');
 		$person_data=$Data->where(array('name'=>$name))->find();
 		$img_key=I('img_key');
+		echo $id.'<br>';
+		echo $img_key;
+		die();
 		$QINIURUL="http://legend-face.qiniudn.com/";
 		$url=$QINIURUL.$img_key;
 		//查找对应Face并删除

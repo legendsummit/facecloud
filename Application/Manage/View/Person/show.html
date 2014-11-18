@@ -10,7 +10,7 @@
 		<?php $urls=getPersonImageUrl($data['name']);?>
 		<div class="img">
 			<img src="{$urls[0]}" width="170">
-			<div class="edit"><a class="edit"><i class="fa fa-picture-o"></i>图集</a></div>
+			<div class="edit"><a class="edit" href="{:U('showimages',array('pid'=>$data['id']))}"><i class="fa fa-picture-o"></i>图集</a></div>
 		</div>
 		{$data['name']}&nbsp;
 		性别:<eq name="data['sex']" value="M">男<else/>女</eq>&nbsp;
