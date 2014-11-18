@@ -15,8 +15,10 @@ class DatabaseController extends Controller {
         $ImageUrls->where('1')->delete(); //删除所有数据
 
         foreach ($people as $person) {
-        	
+        	$Person=M('person');
+            $person_info=$Person->where(array('name'=>$person['name']))->find();
         	$data=array();
+            $data['pid']=$person_info['id'];
         	$data['name']=$person['name'];
         	//获取当前person的所有Faces
             $faces=getPersonFaceFromAPI($person['name']);

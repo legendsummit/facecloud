@@ -76,7 +76,10 @@ class PersonController extends Controller {
 	public function json(){
 		$id=I('id');
 		$Data=M('person');
-		$data=$Data->where(array('id'=>$id))->find();		
+		$data=$Data->where(array('id'=>$id))->find();	
+		$Urls=M('imageurls');
+		$url=$Urls->where(array('pid'=>$id))->find();
+		$data['url']=$url['url'];	
 		echo json_encode($data);
 	}
 	public function add_image_handle(){
