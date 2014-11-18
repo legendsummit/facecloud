@@ -27,7 +27,7 @@
 	    		<input class="submit" type="submit" value="上传图片">
 			</div>
 		</form>
-		<a class="select" href="{:U(add_image_handle,array('time'=>$time,'name'=>$data['name']))}">添加图片到{$data['name']}</a>
+		<a class="select" href="{:U(add_image_handle,array('time'=>$time,'id'=>$data['id']))}">添加图片到{$data['name']}</a>
 		<form class="edit" action="{:U('edit_handle')}" method="post">	
 			<div>
 				<input type="hidden" name="id" value="{$data['id']}">

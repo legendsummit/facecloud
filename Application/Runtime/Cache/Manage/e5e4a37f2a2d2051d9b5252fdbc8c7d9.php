@@ -34,7 +34,7 @@
 	    		<input class="submit" type="submit" value="上传图片">
 			</div>
 		</form>
-		<a class="select" href="<?php echo U(add_image_handle,array('time'=>$time,'name'=>$data['name']));?>">添加图片到<?php echo ($data['name']); ?></a>
+		<a class="select" href="<?php echo U(add_image_handle,array('time'=>$time,'id'=>$data['id']));?>">添加图片到<?php echo ($data['name']); ?></a>
 		<form class="edit" action="<?php echo U('edit_handle');?>" method="post">	
 			<div>
 				<input type="hidden" name="id" value="<?php echo ($data['id']); ?>">

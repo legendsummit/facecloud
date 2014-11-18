@@ -43,8 +43,8 @@
  $urls=getPersonImageUrl($vo['name']); $images[$vo['name']]=$urls[0]; ?>
 					<td align="center">
 						<a class="delete" name="<?php echo $vo['name'] ?>
-						" href="<?php echo U('delete',array('name'=>$vo['name']));?>">删除</a>&nbsp;&nbsp;
-						<a href="<?php echo U('edit',array('name'=>$vo['name']));?>">编辑</a>&nbsp;&nbsp;
+						" href="<?php echo U('delete',array('id'=>$vo['id']));?>">删除</a>&nbsp;&nbsp;
+						<a href="<?php echo U('edit',array('id'=>$vo['id']));?>">编辑</a>&nbsp;&nbsp;
 						<a class="view" data-id="<?php echo $vo['id'] ?>" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
 					</td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>		
