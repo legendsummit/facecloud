@@ -23,8 +23,9 @@
 		<?php  require_once("Public/php/qiniu/rs.php"); $accessKey = 'O382ET2CmCVfdylV3kK31uQQacE595YNm8hOrBf5'; $secretKey = 'H91chSYT4fIBMgNvfV_oVRhWFzNHIvHPGeSh0FNs'; Qiniu_SetKeys($accessKey, $secretKey); $bucket = 'legend-face'; $putPolicy = new Qiniu_RS_PutPolicy($bucket); $upToken = $putPolicy->Token(null); ?>
 	 	<form id="form" method="post" action="http://up.qiniu.com" name="form" enctype="multipart/form-data">
 			<div id="left-header">
-				<div class="button1"><a class="select">选择图片</a></div>
-				<?php echo ($data['name']); ?>
+				<div class="button1"><a class="select"><i class="fa fa-arrow-up"></i>上传图片</a>
+				</div>
+				<div class="name-header"><?php echo ($data['name']); ?></div>
 			</div>
 			<div id="left-bottom">
 		    	<input type="hidden" id="token" name="token" value="<?php echo $upToken ?>" >
@@ -33,7 +34,7 @@
 	    		<input class="submit" type="submit" value="上传图片">
 			</div>
 		</form>
-		<a class="face" href="<?php echo U(add_image_handle,array('time'=>$time,'name'=>$data['name']));?>">添加图片到<?php echo ($data['name']); ?></a>
+		<a class="select" href="<?php echo U(add_image_handle,array('time'=>$time,'name'=>$data['name']));?>">添加图片到<?php echo ($data['name']); ?></a>
 		<form class="edit" action="<?php echo U('edit_handle');?>" method="post">	
 			<div>
 				<input type="hidden" name="id" value="<?php echo ($data['id']); ?>">
@@ -64,7 +65,7 @@
 		</div>
 		<div class="image">
 			<div id="two"></div>
-			<div class="button2"><a class="submit"><i class="fa fa-arrow-up"></i>上传</a></div>	
+			<div class="button2"><a class="submit">确认上传</a></div>	
 		</div>
 	</div>
 	<script type="text/javascript">

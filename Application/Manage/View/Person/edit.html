@@ -16,8 +16,9 @@
 		 ?>
 	 	<form id="form" method="post" action="http://up.qiniu.com" name="form" enctype="multipart/form-data">
 			<div id="left-header">
-				<div class="button1"><a class="select">选择图片</a></div>
-				{$data['name']}
+				<div class="button1"><a class="select"><i class="fa fa-arrow-up"></i>上传图片</a>
+				</div>
+				<div class="name-header">{$data['name']}</div>
 			</div>
 			<div id="left-bottom">
 		    	<input type="hidden" id="token" name="token" value="<?php echo $upToken ?>" >
@@ -26,7 +27,7 @@
 	    		<input class="submit" type="submit" value="上传图片">
 			</div>
 		</form>
-		<a class="face" href="{:U(add_image_handle,array('time'=>$time,'name'=>$data['name']))}">添加图片到{$data['name']}</a>
+		<a class="select" href="{:U(add_image_handle,array('time'=>$time,'name'=>$data['name']))}">添加图片到{$data['name']}</a>
 		<form class="edit" action="{:U('edit_handle')}" method="post">	
 			<div>
 				<input type="hidden" name="id" value="{$data['id']}">
@@ -57,7 +58,7 @@
 		</div>
 		<div class="image">
 			<div id="two"></div>
-			<div class="button2"><a class="submit"><i class="fa fa-arrow-up"></i>上传</a></div>	
+			<div class="button2"><a class="submit">确认上传</a></div>	
 		</div>
 	</div>
 	<script type="text/javascript">

@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
  <head>
  	<meta charset="utf-8">
-   <block><title>Select Data</title></block>
+   <title>标题</title>
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/font-awesome-4.2.0/css/font-awesome.css">
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/base.css">
    <script type="text/javascript" src="/facecloud/Public/jquery-2.1.1.js"></script>
@@ -35,20 +35,16 @@
 				<th width="50%">姓名</th>
 				<th width="50%">操作</th>
 			</tr>
-			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="td">
+			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="td" height="22px">
 					<td>&nbsp;&nbsp;<i class="fa fa-user"></i></i>
 						&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["name"]); ?>
 					</td>
 					<?php
  $urls=getPersonImageUrl($vo['name']); $images[$vo['name']]=$urls[0]; ?>
 					<td align="center">
-						<a href="<?php echo U('add_image',array('name'=>$vo['name']));?>">上传</a>&nbsp;&nbsp;
-						<a class="view" name="<?php echo $vo['name'] ?>"
-						href="<?php echo U('delete',array('name'=>$vo['name']));?>
-						">删除</a>&nbsp;&nbsp;
-						<a class="view" name="<?php echo $vo['name'] ?>" 
-						href="<?php echo U('edit',array('id'=>$vo['id']));?>"
-						>修改</a>&nbsp;&nbsp;
+						<a class="delete" name="<?php echo $vo['name'] ?>
+						" href="<?php echo U('delete',array('name'=>$vo['name']));?>">删除</a>&nbsp;&nbsp;
+						<a href="<?php echo U('edit',array('name'=>$vo['name']));?>">编辑</a>&nbsp;&nbsp;
 						<a class="view" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
 					</td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -68,10 +64,11 @@
 			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $url=getPersonImageUrl($vo['name']); $image[$vo['name']]=$url[0]; ?>
 				<div class="p" name="<?php echo $image[$vo['name']] ?>">
 					<p class="name"><?php echo ($vo["name"]); ?></p>
-					<p>性别：<?php if(($vo['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?></p>
-					<p>职业：<?php echo ($vo["profession"]); ?></p>
-					<p>简介：<?php echo ($vo["introduce"]); ?></p>
-					<p><a class="view" name="<?php echo $vo['name'] ?>" href="<?php echo U('show',array('id'=>$vo['id']));?>">详情</a></p>
+					<p class="sex">性别：<?php if(($vo['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?></p>
+					<p class="profession">职业：<?php echo ($vo["profession"]); ?></p>
+					
+					<div class="intro_wrapper"><p class="introduce">简介：<?php echo ($vo["introduce"]); ?></p></div>
+					<p class="detail"><a class="view" name="<?php echo $vo['name'] ?>" href=<?php echo U('show',array('id'=>$vo['id']));?>>详情<i class="fa fa-angle-double-right"></i></a></p>
 				</div><?php endforeach; endif; else: echo "" ;endif; ?>
 		</div>
 	</div>

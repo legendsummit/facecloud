@@ -4,7 +4,6 @@ namespace Manage\Controller;
 use Think\Controller;
 class DatabaseController extends Controller {
     public function index(){
-        getPersonFaceFromAPI('成龙');
 	}
 	//将person_images同步到本地数据库fl_imageurls中
 	public function peopleimages(){

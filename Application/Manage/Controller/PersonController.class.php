@@ -49,9 +49,10 @@ class PersonController extends Controller {
 		}
 	}
 	public function edit(){
-		$id=I('id');
+		$name=I('name');
 		$Data=M('person');
-		$this->data=$Data->where("id=$id")->find();
+		$this->time=time();
+		$this->data=$Data->where(array('name'=>$name))->find();
 		$this->display();
 	}
 	public function edit_handle(){
@@ -69,15 +70,10 @@ class PersonController extends Controller {
 	public function show(){
 		$id=I('id');
 		$Data=M('person');
-		$this->data=$Data->where("id=$id")->find();
+		$this->data=$Data->where(array('id'=>$id))->find();
 		$this->display();
 	}
 	
-	public function add_image(){
-		$this->name=I('name');
-		$this->time=time();
-		$this->display();
-	}
 	public function add_image_handle(){
 		$facepp = new \Org\Util\Facepp();
 		$time=I('time');
@@ -93,25 +89,20 @@ class PersonController extends Controller {
 	    	//将url添加到本地数据库中
 			$ImageUrls=M('imageurls');	//实例化
 			$ImageUrls->add(array('name'=>$person_name,'url'=>$url,'face_id'=>$face_id));
-	    	$this->redirect('Manage/Person/add_image', 
-	    		array('name' => $person_name), 0.5, '上传成功!');
+	    	$this->redirect('Manage/Person/edit', 
+	    		array('name' =>$person_name), 0.5, '上传成功!');
 	    }else {
 	    	print_r($response);
 	    }
 	}
 	public function del_image(){
 		$facepp = new \Org\Util\Facepp();
-		$id=I('id');
+		$name=I('name');
 		$Data=M('person');
-		$person_data=$Data->where(array('id'=>$id))->find();
-		$name=$person_data['name'];
+		$person_data=$Data->where(array('name'=>$name))->find();
 		$img_key=I('img_key');
 		$QINIURUL="http://legend-face.qiniudn.com/";
 		$url=$QINIURUL.$img_key;
-		//获得人物信息
-		$response=getResponse('/person/get_info',array('person_name'=>$name));
-		//获得人物所有的脸型
-		$faces=$response['face'];
 		//查找对应Face并删除
 		$Image_data=M('imageurls');
 		$image_data=$Image_data->where(array('url'=>$url))->find();
@@ -121,7 +112,9 @@ class PersonController extends Controller {
 		if($result['http_code']!=200){
 			//将图片从本地数据库中删除
 			$Image_data->where(array('name'=>$name,'url'=>$url))->delete();
-			$this->redirect('edit',array('id'=>$id));
+			$this->redirect('show',array('name'=>$name));
+			//将照片从七牛服务器删除
+			delete_qiniu_img($img_key);
 		}
 		else{
 			print_r($result);
@@ -136,8 +129,14 @@ class PersonController extends Controller {
 			//从数据库中删除人物信息
 			$Person=M('person');
 			$Person->where(array('name'=>$name))->delete(); 
-			//从数据库删除照片信息
+			//删除七牛服务器中人物的照片
 			$Image=M('imageurls');
+			$images=$Image->where(array('name'=>$name))->select();
+			foreach ($images as $img) {
+				$key=substr($img['url'],31);
+				delete_qiniu_img($key);
+			}
+			//将人物从数据库删除
 			$Image->where(array('name'=>$name))->delete();
 			$this->redirect('index');
 		}

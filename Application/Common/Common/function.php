@@ -50,4 +50,20 @@
 		$response=json_decode($response['body'],true);
 		return $response;
 	}
+	//从七牛删除文件
+	function delete_qiniu_img($key1){
+		require_once("Public/php/qiniu/rs.php");
+		$bucket = "legend-face";
+		$accessKey = 'O382ET2CmCVfdylV3kK31uQQacE595YNm8hOrBf5';
+		$secretKey = 'H91chSYT4fIBMgNvfV_oVRhWFzNHIvHPGeSh0FNs';
+		Qiniu_SetKeys($accessKey, $secretKey);
+		$client = new Qiniu_MacHttpClient(null);
+		$err = Qiniu_RS_Delete($client, $bucket, $key1);
+		if ($err !== null) {
+	   		 var_dump($err);
+		} else {
+	    	echo "Success!";
+		}
+
+	}
 ?>

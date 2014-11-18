@@ -1,0 +1,2113 @@
+[ 2014-11-17T18:25:27+08:00 ] ::1 /facecloud/index.php/Manage/Person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 148 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003544s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003601s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000392s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000291s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000300s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000282s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000275s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000280s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000270s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000321s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000301s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000289s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000284s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000278s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000307s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000278s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000256s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000253s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000236s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000228s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000235s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2014-11-17T18:25:30+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 148 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009244s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.001178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 31 行.
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2014-11-17T18:27:52+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007866s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000677s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008173s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000738s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000715s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000720s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000669s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000683s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000712s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000882s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000784s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000582s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000502s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000571s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000741s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000532s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2014-11-17T18:27:54+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.011120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.001205s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008109s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林丹' )  [ RunTime:0.000587s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王浩' )  [ RunTime:0.000541s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭晶晶' )  [ RunTime:0.000527s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '姚明' )  [ RunTime:0.000467s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林书豪' )  [ RunTime:0.000554s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭富城' )  [ RunTime:0.000398s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000401s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '邓紫棋' )  [ RunTime:0.000473s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '孙燕姿' )  [ RunTime:0.000417s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁咏琪' )  [ RunTime:0.000460s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林丹' )  [ RunTime:0.000415s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王浩' )  [ RunTime:0.000403s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭晶晶' )  [ RunTime:0.000378s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '姚明' )  [ RunTime:0.000396s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林书豪' )  [ RunTime:0.000482s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭富城' )  [ RunTime:0.000451s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000424s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '邓紫棋' )  [ RunTime:0.000384s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '孙燕姿' )  [ RunTime:0.000400s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁咏琪' )  [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2014-11-17T18:27:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007442s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000592s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.011276s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.001035s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000658s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000622s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.001233s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000459s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000464s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000411s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000369s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000340s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000347s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000395s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.001003s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000775s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2014-11-17T18:28:01+08:00 ] ::1 /facecloud/index.php/Manage/Person/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003420s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002186s ]
+
+[ 2014-11-17T18:28:12+08:00 ] ::1 /facecloud/index.php/Manage/Person/create_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008604s ]
+SQL: INSERT INTO `fl_person` (`name`,`sex`,`profession`,`introduce`,`person_id`) VALUES ('张全蛋','M','','','6baced74ffb37541d2504f19863d0b53') [ RunTime:0.067851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002095s ]
+
+[ 2014-11-17T18:28:13+08:00 ] ::1 /facecloud/index.php/Manage/Person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008991s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006012s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000613s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000615s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000456s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000429s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000427s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000434s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000434s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000407s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000467s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000551s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000429s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000352s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000379s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000322s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000359s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000357s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000387s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000441s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000493s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002176s ]
+
+[ 2014-11-17T18:28:16+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007889s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000988s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.001154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.010670s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.001083s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000537s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.001428s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000447s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000377s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000398s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000410s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000398s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000390s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000367s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000437s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000367s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000324s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000378s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000432s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000405s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2014-11-17T18:28:21+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007912s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 31 行.
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2014-11-17T18:28:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007820s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 43 ) LIMIT 1   [ RunTime:0.000722s ]
+SQL: UPDATE `fl_person` SET `name`='张全蛋',`sex`='M',`profession`='歌手、演员',`introduce`='哈哈' WHERE ( `id` = 43 ) [ RunTime:0.267104s ]
+
+[ 2014-11-17T18:28:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008119s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008790s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000678s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2014-11-17T18:28:53+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000652s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004849s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000495s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000549s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000531s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000406s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000418s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000418s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000431s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000433s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000455s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000397s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000403s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000363s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000433s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000466s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000346s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000441s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000375s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000407s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000356s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2014-11-17T18:28:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007556s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000572s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.010294s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.001004s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.001253s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000717s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000644s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000629s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000952s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000766s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000689s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000714s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000877s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000710s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000568s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000647s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000670s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000682s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000718s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002810s ]
+
+[ 2014-11-17T18:29:14+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005307s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 31 行.
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2014-11-17T18:31:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000635s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007699s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000754s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000665s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000648s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000807s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000693s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000629s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000597s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000718s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000703s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000786s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000654s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000627s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000705s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000665s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000661s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000774s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000665s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000678s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000762s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2014-11-17T18:31:17+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007241s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 31 行.
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2014-11-17T18:33:35+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005332s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000454s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000365s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000524s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000424s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000374s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000393s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000376s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000276s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000666s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000421s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000333s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000365s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000462s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000404s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000446s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000395s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000378s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000375s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000384s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2014-11-17T18:33:39+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007608s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003457s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-11-17T18:33:46+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007207s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004724s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000456s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2014-11-17T18:33:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003941s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005395s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000435s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2014-11-17T18:33:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008303s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008633s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-11-17T18:33:52+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 144 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009439s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009795s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000746s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2014-11-17T18:40:55+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008613s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004784s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000507s ]
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2014-11-17T18:41:10+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010107s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008455s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000722s ]
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2014-11-17T18:41:20+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004878s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004394s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000465s ]
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant image_key - assumed 'image_key' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 16 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2014-11-17T18:41:32+08:00 ] ::1 /facecloud/index.php/Manage/Person/del_image/name/%E6%9D%8E%E5%86%B0%E5%86%B0/image_key/image_key.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005304s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000431s ]
+
+[ 2014-11-17T18:41:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003766s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003988s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000394s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2014-11-17T18:41:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/del_image/name/%E6%9D%8E%E5%86%B0%E5%86%B0/image_key/1416051829.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008339s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000487s ]
+
+[ 2014-11-17T18:42:35+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009307s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009213s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000847s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002680s ]
+
+[ 2014-11-17T18:42:36+08:00 ] ::1 /facecloud/index.php/Manage/Person/del_image/name/%E6%9D%8E%E5%86%B0%E5%86%B0/img_key/1416051829.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008208s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000819s ]
+
+[ 2014-11-17T18:42:51+08:00 ] ::1 /facecloud/index.php/Manage/Person/del_image/name/%E6%9D%8E%E5%86%B0%E5%86%B0/img_key/1416051829.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 146 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008900s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000670s ]
+
+[ 2014-11-17T18:43:53+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009140s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.011537s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000809s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2014-11-17T18:44:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003519s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000312s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000254s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000264s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000248s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000321s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000294s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000236s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000213s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000213s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000210s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000221s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000227s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000229s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000271s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000232s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000226s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000249s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000210s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000209s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2014-11-17T18:44:54+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008619s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005656s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2014-11-17T18:45:55+08:00 ] ::1 /facecloud/index.php/Manage/Person/del_image/name/%E6%9D%8E%E5%86%B0%E5%86%B0/img_key/1416051841.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007844s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008265s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `url` = 'http://legend-face.qiniudn.com/1416051841' ) LIMIT 1   [ RunTime:0.001062s ]
+NOTIC: [8] Undefined index: http_code F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 116 行.
+SQL: DELETE FROM `fl_imageurls` WHERE ( `name` = '李冰冰' ) AND ( `url` = 'http://legend-face.qiniudn.com/1416051841' ) [ RunTime:0.071305s ]
+NOTIC: [8] Undefined variable: id F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 119 行.
+
+[ 2014-11-17T18:45:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008133s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id= ) LIMIT 1   [ RunTime:0.029660s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` WHERE ( id= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 31 行.
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2014-11-17T18:46:03+08:00 ] ::1 /facecloud/index.php/Manage/Person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000702s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007359s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000764s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000642s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000706s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000690s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000416s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000380s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000476s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000431s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000372s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000318s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000325s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000462s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000347s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000334s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000360s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000513s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000478s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000415s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000338s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2014-11-17T18:46:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010512s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008264s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000795s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2014-11-17T18:47:27+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/name/%E6%9D%8E%E5%86%B0%E5%86%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.011938s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李冰冰' ) LIMIT 1   [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004827s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\7dcffcc9470807f6db11de3546f1a6ff.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2014-11-17T18:48:14+08:00 ] ::1 /facecloud/index.php/Manage/Person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003143s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000322s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000237s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000270s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000283s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000265s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000240s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000229s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000242s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000217s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000215s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000225s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000222s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000220s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000219s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000222s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000219s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000303s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000247s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000312s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2014-11-17T18:48:16+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010924s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000900s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003366s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000926s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000343s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000262s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000331s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000294s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000236s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000228s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000324s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000244s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000371s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000275s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000349s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000297s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000321s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000303s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000308s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2014-11-17T18:49:38+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009822s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.001014s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005553s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000510s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000504s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000462s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000479s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000571s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000389s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000418s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000336s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000362s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000375s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000388s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000336s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000297s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000292s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000289s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000281s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2014-11-17T18:49:42+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/:U('name'=%3E$vo['name'])
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `fl_person` LIMIT -10,10   [ RunTime:0.000286s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` LIMIT -10,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+NOTIC: [8] Undefined variable: images F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2014-11-17T18:49:45+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000617s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008222s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000739s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000612s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000672s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000633s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000631s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000619s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000797s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000715s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000625s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000615s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000643s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000675s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000863s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000681s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000705s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000679s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2014-11-17T18:49:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000595s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008139s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林丹' )  [ RunTime:0.000717s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王浩' )  [ RunTime:0.000602s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭晶晶' )  [ RunTime:0.000614s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '姚明' )  [ RunTime:0.000653s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林书豪' )  [ RunTime:0.000637s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭富城' )  [ RunTime:0.000688s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000606s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '邓紫棋' )  [ RunTime:0.000695s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '孙燕姿' )  [ RunTime:0.000682s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁咏琪' )  [ RunTime:0.000693s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林丹' )  [ RunTime:0.000634s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王浩' )  [ RunTime:0.000660s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭晶晶' )  [ RunTime:0.000690s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '姚明' )  [ RunTime:0.000601s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林书豪' )  [ RunTime:0.000479s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭富城' )  [ RunTime:0.000369s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000378s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '邓紫棋' )  [ RunTime:0.000381s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '孙燕姿' )  [ RunTime:0.000383s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁咏琪' )  [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2014-11-17T18:49:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006726s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000603s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006737s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000775s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000634s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000621s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000560s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000638s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000659s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000664s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000598s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000644s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000657s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000664s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000680s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000618s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000668s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000704s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000550s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002453s ]
+
+[ 2014-11-17T18:50:53+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004349s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000707s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000406s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000357s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000344s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000347s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000400s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000441s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000608s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000706s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000637s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000502s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000547s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000396s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000386s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000467s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000464s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2014-11-17T18:50:55+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/:U(delete,array('name'=%3E$vo['name']))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003503s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `fl_person` LIMIT -10,10   [ RunTime:0.000229s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` LIMIT -10,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+NOTIC: [8] Undefined variable: images F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2014-11-17T18:51:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/:U(delete,array('name'=%3E$vo['name']))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009702s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000830s ]
+SQL: SELECT * FROM `fl_person` LIMIT -10,10   [ RunTime:0.000416s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` LIMIT -10,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+NOTIC: [8] Undefined variable: images F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2014-11-17T18:51:30+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009609s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000761s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009024s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000789s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000732s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000669s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000710s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.001108s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000746s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000621s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000486s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000806s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000634s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000664s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000308s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000373s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000327s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000307s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000282s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2014-11-17T18:51:32+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/:U('delete',array('name'=%3E$vo['name']))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003171s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008681s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000723s ]
+SQL: SELECT * FROM `fl_person` LIMIT -10,10   [ RunTime:0.000512s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` LIMIT -10,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+NOTIC: [8] Undefined variable: images F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2014-11-17T18:51:49+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/:U('delete',array('name'=%3E$vo['name']))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT * FROM `fl_person` LIMIT -10,10   [ RunTime:0.000498s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` LIMIT -10,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+NOTIC: [8] Undefined variable: images F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2014-11-17T18:52:09+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/:U('delete',array('name'=%3E$vo['name']))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003279s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `fl_person` LIMIT -10,10   [ RunTime:0.000327s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `fl_person` LIMIT -10,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+NOTIC: [8] Undefined variable: images F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2014-11-17T18:52:10+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006879s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000672s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009410s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000450s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000580s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000549s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000514s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000474s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000449s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000499s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000460s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000599s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000574s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000600s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000891s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000430s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000426s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000430s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000394s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-11-17T18:52:11+08:00 ] ::1 /facecloud/index.php/Manage/Person/delete/name/%E5%BC%A0%E5%85%A8%E8%9B%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 145 行.
+
+[ 2014-11-17T18:52:33+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008857s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000730s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005217s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000436s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000420s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000451s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000448s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000444s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000462s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000719s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000518s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000495s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000400s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000363s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000390s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000345s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000434s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000427s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张全蛋' )  [ RunTime:0.000345s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: urls F:\develop tools\wamp\www\facecloud\Application\Common\Common\function.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2014-11-17T18:52:36+08:00 ] ::1 /facecloud/index.php/Manage/Person/delete/name/%E5%BC%A0%E5%85%A8%E8%9B%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007337s ]
+SQL: DELETE FROM `fl_person` WHERE ( `name` = '张全蛋' ) [ RunTime:0.072912s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.122045s ]
+SQL: DELETE FROM `fl_imageurls` WHERE ( `name` = '张全蛋' ) [ RunTime:0.000570s ]
+
+[ 2014-11-17T18:52:36+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.083176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007517s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000694s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000650s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000760s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000666s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000600s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000730s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000716s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000620s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000587s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000671s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000667s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000731s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000704s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000772s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000706s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000632s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000650s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000657s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000858s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003319s ]
+
+[ 2014-11-17T18:52:38+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007956s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008320s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000784s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000756s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000905s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000798s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000811s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000734s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000681s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '光良' )  [ RunTime:0.000644s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '任贤齐' )  [ RunTime:0.000708s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '许嵩' )  [ RunTime:0.000742s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '蔡依林' )  [ RunTime:0.000718s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王力宏' )  [ RunTime:0.000670s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁静茹' )  [ RunTime:0.000712s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张静初' )  [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002441s ]
+
+[ 2014-11-17T18:52:40+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000644s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.012635s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林丹' )  [ RunTime:0.000971s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王浩' )  [ RunTime:0.001257s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭晶晶' )  [ RunTime:0.001397s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '姚明' )  [ RunTime:0.000765s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林书豪' )  [ RunTime:0.000364s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭富城' )  [ RunTime:0.000305s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000452s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '邓紫棋' )  [ RunTime:0.000648s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '孙燕姿' )  [ RunTime:0.000359s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁咏琪' )  [ RunTime:0.000312s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林丹' )  [ RunTime:0.000282s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '王浩' )  [ RunTime:0.000279s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭晶晶' )  [ RunTime:0.000270s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '姚明' )  [ RunTime:0.000366s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '林书豪' )  [ RunTime:0.000460s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '郭富城' )  [ RunTime:0.000332s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000374s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '邓紫棋' )  [ RunTime:0.000308s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '孙燕姿' )  [ RunTime:0.000351s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁咏琪' )  [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002590s ]
+
+[ 2014-11-17T18:52:41+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005694s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006590s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000485s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000561s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000384s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000418s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000385s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000380s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000383s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000315s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000412s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000312s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘亦菲' )  [ RunTime:0.000295s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '李冰冰' )  [ RunTime:0.000276s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '范冰冰' )  [ RunTime:0.000275s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '科比' )  [ RunTime:0.000314s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '梁朝伟' )  [ RunTime:0.000238s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000273s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '张伟' )  [ RunTime:0.000233s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '陈赫' )  [ RunTime:0.000228s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '娄艺潇' )  [ RunTime:0.000230s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '刘翔' )  [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2014-11-17T18:53:40+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 143 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009611s ]
+SQL: SELECT * FROM `fl_person` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 31 行.
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+NOTIC: [8] Undefined variable: time F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007958s ]
+

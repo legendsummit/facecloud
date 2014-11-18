@@ -1,10 +1,14 @@
 $(function(){
 	$('a.select').click(function(){
+		$('div.button1').css({'box-shadow':''})
 		$('input.file').click();
 	})
 	$('a.submit').click(function(){
 		$('input.submit').click();
 		//$('#form').submit();
+		setInterval(function(){
+			//$('a.face').click()
+		},2000)
 	})
 	$('input.file').bind('change',function(event){
 		$('div.button2').css({'display':'block'});
