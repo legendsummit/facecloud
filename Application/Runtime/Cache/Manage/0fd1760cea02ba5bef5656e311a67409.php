@@ -16,6 +16,12 @@
  <body>
  	<div id="header">
  		<div class="logo"><h3>logo</h3></div>
+ 		<ul>
+ 			<li><a>首页</a></li>
+ 			<li><a>人物</a></li>
+ 			<li><a>群组</a></li>
+ 			<li><a>个人信息</a></li>
+ 		</ul>
  	</div>
  	<div id="content">
  		
@@ -39,13 +45,11 @@
 					<td>&nbsp;&nbsp;<i class="fa fa-user"></i></i>
 						&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["name"]); ?>
 					</td>
-					<?php
- $urls=getPersonImageUrl($vo['name']); $images[$vo['name']]=$urls[0]; ?>
 					<td align="center">
-						<a class="delete" name="<?php echo $vo['name'] ?>
-						" href="<?php echo U('delete',array('id'=>$vo['id']));?>">删除</a>&nbsp;&nbsp;
-						<a href="<?php echo U('edit',array('id'=>$vo['id']));?>">编辑</a>&nbsp;&nbsp;
-						<a class="view" data-id="<?php echo $vo['id'] ?>" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
+						<a class="delete" id="index" href="<?php echo U('delete',array('id'=>$vo['id']));?>">删除</a>
+						&nbsp;&nbsp;
+						<a id="index" href="<?php echo U('edit',array('id'=>$vo['id']));?>">编辑</a>&nbsp;&nbsp;
+						<a class="view" id="index" data-id="<?php echo $vo['id'] ?>" >预览</a>
 					</td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>		
 		</table>
@@ -61,9 +65,7 @@
 			<div class="profession one"></div>
 			<div class="introduce one"></div>
 			<div class="detail one">
-				<a class="detail">
-					详情<i class="fa fa-angle-double-right"></i>
-				</a>
+				<a class="detail">详情<i class="fa fa-angle-double-right"></i></a>
 			</div>
 		</div>
 	</div>

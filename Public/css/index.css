@@ -58,16 +58,22 @@ tr#th {
 tr#td:hover {
 	background-color: rgb(243,244,246);
 }
-a {
+a#index {
 	text-decoration: none;
 	opacity: 0.5;
 	color:#757575;
 }
-a.view,a.detail {
-	cursor: pointer;
-}
-a:hover {
+a#index:hover {
 	opacity: 1;
+}
+a.prev,a.num,a.next {
+	opacity: 0.7;
+	color:#757575;
+	text-decoration: none;
+}
+a.prev:hover,a.num:hover,a.next:hover {
+	opacity: 1;
+	text-decoration: underline;
 }
 div.result {
 	height: 8%;
@@ -125,6 +131,7 @@ div.detail {
 div.detail a {
 	opacity: 0.7;
 	color: black;
+	text-decoration: none;
 }
 div.detail a:hover {
 	color: red;

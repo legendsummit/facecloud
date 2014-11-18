@@ -24,15 +24,11 @@
 					<td>&nbsp;&nbsp;<i class="fa fa-user"></i></i>
 						&nbsp;&nbsp;&nbsp;&nbsp;{$vo.name}
 					</td>
-					<?php
-				 		$urls=getPersonImageUrl($vo['name']);
-				 		$images[$vo['name']]=$urls[0];
-				 	?>
 					<td align="center">
-						<a class="delete" name="<?php echo $vo['name'] ?>
-						" href="{:U('delete',array('id'=>$vo['id']))}">删除</a>&nbsp;&nbsp;
-						<a href="{:U('edit',array('id'=>$vo['id']))}">编辑</a>&nbsp;&nbsp;
-						<a class="view" data-id="<?php echo $vo['id'] ?>" url="<?php echo $urls[0] ?>" name="<?php echo $vo['name'] ?>">预览</a>
+						<a class="delete" id="index" href="{:U('delete',array('id'=>$vo['id']))}">删除</a>
+						&nbsp;&nbsp;
+						<a id="index" href="{:U('edit',array('id'=>$vo['id']))}">编辑</a>&nbsp;&nbsp;
+						<a class="view" id="index" data-id="<?php echo $vo['id'] ?>" >预览</a>
 					</td>
 				</tr>
 			</volist>		
@@ -49,9 +45,7 @@
 			<div class="profession one"></div>
 			<div class="introduce one"></div>
 			<div class="detail one">
-				<a class="detail">
-					详情<i class="fa fa-angle-double-right"></i>
-				</a>
+				<a class="detail">详情<i class="fa fa-angle-double-right"></i></a>
 			</div>
 		</div>
 	</div>

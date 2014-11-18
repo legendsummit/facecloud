@@ -9410,3 +9410,2005 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
 
+[ 2014-11-18T21:16:28+08:00 ] ::1 /facecloud/index.php/Manage/Person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005889s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000531s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2014-11-18T21:16:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004486s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004217s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2014-11-18T21:16:31+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004629s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005051s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2014-11-18T21:16:34+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004273s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004124s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2014-11-18T21:16:36+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004925s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005334s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2014-11-18T21:18:41+08:00 ] ::1 /facecloud/index.php/Manage/Person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2014-11-18T21:18:42+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005141s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005817s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2014-11-18T21:18:42+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005346s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004789s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2014-11-18T21:18:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004202s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004368s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2014-11-18T21:18:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004899s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004609s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2014-11-18T21:18:44+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004870s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004331s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2014-11-18T21:18:46+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004594s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004962s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2014-11-18T21:18:46+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004165s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005068s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 6 ) LIMIT 1   [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2014-11-18T21:18:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005210s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004260s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 7 ) LIMIT 1   [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2014-11-18T21:18:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005301s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004083s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 8 ) LIMIT 1   [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2014-11-18T21:18:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005894s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004196s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 9 ) LIMIT 1   [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2014-11-18T21:18:49+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004398s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006853s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 10 ) LIMIT 1   [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2014-11-18T21:18:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004554s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005027s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '麦迪' )  [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2014-11-18T21:18:53+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005452s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005199s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 8 ) LIMIT 1   [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2014-11-18T21:18:54+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005209s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004735s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '詹姆斯' )  [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2014-11-18T21:20:45+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004374s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004744s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2014-11-18T21:20:46+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005868s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005458s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2014-11-18T21:21:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006646s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005125s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2014-11-18T21:23:54+08:00 ] ::1 /facecloud/index.php/Manage/group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2014-11-18T21:24:58+08:00 ] ::1 /facecloud/index.php/Manage/Person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006753s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2014-11-18T21:25:19+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2014-11-18T21:27:36+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005960s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000568s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2014-11-18T21:28:11+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000535s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2014-11-18T21:28:20+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2014-11-18T21:28:35+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2014-11-18T21:28:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000518s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2014-11-18T21:28:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006591s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2014-11-18T21:31:26+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2014-11-18T21:32:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2014-11-18T21:33:44+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2014-11-18T21:33:58+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.003811s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2014-11-18T21:34:41+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004914s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2014-11-18T21:35:38+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000546s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2014-11-18T21:36:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000539s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2014-11-18T21:36:57+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004734s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2014-11-18T21:37:04+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004643s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2014-11-18T21:37:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004537s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004217s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 15 ) LIMIT 1   [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2014-11-18T21:37:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004252s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004924s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 16 ) LIMIT 1   [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2014-11-18T21:37:14+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000888s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002332s ]
+
+[ 2014-11-18T21:37:16+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004846s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004166s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 15 ) LIMIT 1   [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2014-11-18T21:37:16+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004183s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004256s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 16 ) LIMIT 1   [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2014-11-18T21:38:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2014-11-18T21:38:45+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005102s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004893s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 15 ) LIMIT 1   [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2014-11-18T21:38:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005173s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004689s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 16 ) LIMIT 1   [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2014-11-18T21:38:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004662s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004314s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 17 ) LIMIT 1   [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2014-11-18T21:38:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004805s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004233s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 18 ) LIMIT 1   [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2014-11-18T21:38:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004850s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004119s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 19 ) LIMIT 1   [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2014-11-18T21:38:49+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004764s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004120s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 20 ) LIMIT 1   [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2014-11-18T21:38:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004665s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004334s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 21 ) LIMIT 1   [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2014-11-18T21:38:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004711s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004811s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 22 ) LIMIT 1   [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2014-11-18T21:38:51+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006835s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005299s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 23 ) LIMIT 1   [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002286s ]
+
+[ 2014-11-18T21:38:52+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2014-11-18T21:38:54+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.001719s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2014-11-18T21:38:56+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005598s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000506s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2014-11-18T21:38:57+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2014-11-18T21:39:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/edit/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004311s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant add_image_handle - assumed 'add_image_handle' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\e5e4a37f2a2d2051d9b5252fdbc8c7d9.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2014-11-18T21:39:12+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004626s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004609s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 24 ) LIMIT 1   [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2014-11-18T21:39:41+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000542s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2014-11-18T21:39:43+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005124s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006171s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 15 ) LIMIT 1   [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2014-11-18T21:40:23+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2014-11-18T21:40:25+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004670s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006620s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 15 ) LIMIT 1   [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2014-11-18T21:40:26+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004196s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004981s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 16 ) LIMIT 1   [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002203s ]
+
+[ 2014-11-18T21:40:26+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004495s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005530s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 17 ) LIMIT 1   [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2014-11-18T21:40:27+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004293s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004655s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 18 ) LIMIT 1   [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2014-11-18T21:40:27+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004453s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004698s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 19 ) LIMIT 1   [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003119s ]
+
+[ 2014-11-18T21:40:40+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004948s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000778s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2014-11-18T21:40:41+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006869s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000769s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2014-11-18T21:41:55+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000532s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2014-11-18T21:42:24+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000419s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2014-11-18T21:42:35+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2014-11-18T21:42:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006692s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2014-11-18T21:43:54+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000513s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2014-11-18T21:44:51+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005738s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.001484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2014-11-18T21:46:16+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005541s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004525s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 21 ) LIMIT 1   [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2014-11-18T21:46:16+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004626s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006815s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 22 ) LIMIT 1   [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002624s ]
+
+[ 2014-11-18T21:46:17+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.089077s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005286s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 23 ) LIMIT 1   [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2014-11-18T21:46:17+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004746s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004621s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 24 ) LIMIT 1   [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2014-11-18T21:46:18+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005022s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004087s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 15 ) LIMIT 1   [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2014-11-18T21:46:19+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004600s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004888s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 16 ) LIMIT 1   [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2014-11-18T21:46:19+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005310s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003862s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 17 ) LIMIT 1   [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2014-11-18T21:46:20+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004943s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004440s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 18 ) LIMIT 1   [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2014-11-18T21:46:21+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004306s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004862s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 19 ) LIMIT 1   [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2014-11-18T21:46:21+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004916s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.005145s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 20 ) LIMIT 1   [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002256s ]
+
+[ 2014-11-18T21:46:22+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005277s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004957s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 21 ) LIMIT 1   [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2014-11-18T21:46:22+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004759s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004612s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 22 ) LIMIT 1   [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2014-11-18T21:46:23+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004763s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004028s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 23 ) LIMIT 1   [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2014-11-18T21:46:24+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004740s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004621s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 24 ) LIMIT 1   [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2014-11-18T21:46:26+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2014-11-18T21:46:27+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004742s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000531s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2014-11-18T21:46:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004826s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2014-11-18T21:46:32+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004802s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT * FROM `fl_person` LIMIT 10,10   [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2014-11-18T21:46:39+08:00 ] ::1 /facecloud/index.php/Manage/Person/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `fl_person` LIMIT 20,10   [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' D:\Wampserver\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2014-11-18T21:46:41+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004675s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004686s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 25 ) LIMIT 1   [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2014-11-18T21:46:44+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with that of Think\Controller::show() D:\Wampserver\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.005441s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.001185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004390s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '周杰伦' )  [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+

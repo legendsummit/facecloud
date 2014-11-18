@@ -16,6 +16,22 @@ div.logo {
 	width:30%;
 	float:left;
 }
+ul {
+	float: right;
+	height: 100%;
+	margin-top: 0px;
+	margin-right:10px;
+	list-style-type: none;
+}
+li {
+	height: 100%;
+	width: 70px;
+	display: inline-block;
+	line-height: 87px;
+}
+a {
+	cursor: pointer;
+}
 div#content {
 	margin-top: 100px;
 	width: 70%;

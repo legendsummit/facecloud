@@ -16,6 +16,12 @@
  <body>
  	<div id="header">
  		<div class="logo"><h3>logo</h3></div>
+ 		<ul>
+ 			<li><a>首页</a></li>
+ 			<li><a>人物</a></li>
+ 			<li><a>群组</a></li>
+ 			<li><a>个人信息</a></li>
+ 		</ul>
  	</div>
  	<div id="content">
  		
