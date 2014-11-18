@@ -32,7 +32,7 @@
 					<input type="text" name="name" placeholder="请输入搜索姓名">
 				</div>
 				<div class="search">
-					<a class="search-icon"><i class="fa fa-search"></i></a>
+					<a id="index" class="search-icon"><i class="fa fa-search"></i></a>
 				</div>
 			</form>
 		</div>

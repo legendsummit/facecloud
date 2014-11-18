@@ -29,7 +29,7 @@
 		<?php  require_once("Public/php/qiniu/rs.php"); $accessKey = 'O382ET2CmCVfdylV3kK31uQQacE595YNm8hOrBf5'; $secretKey = 'H91chSYT4fIBMgNvfV_oVRhWFzNHIvHPGeSh0FNs'; Qiniu_SetKeys($accessKey, $secretKey); $bucket = 'legend-face'; $putPolicy = new Qiniu_RS_PutPolicy($bucket); $upToken = $putPolicy->Token(null); ?>
 	 	<form id="form" method="post" action="http://up.qiniu.com" name="form" enctype="multipart/form-data">
 			<div id="left-header">
-				<div class="button1"><a class="select"><i class="fa fa-arrow-up"></i>上传图片</a>
+				<div class="button1"><a  id="edit" class="select"><i class="fa fa-arrow-up"></i>上传图片</a>
 				</div>
 				<div class="name-header"><?php echo ($data['name']); ?></div>
 			</div>
@@ -58,7 +58,7 @@
 			<div class="edit">
 				职业：<input class="profession" type="text" readonly="readonly"   name="profession" value="<?php echo ($data['profession']); ?>" />
 			</div>
-			<div class="edit">
+			<div class="introduce">
 				<div class="label">简介：</div>
 				<textarea class="introduce" readonly="readonly"  name="introduce" ><?php echo ($data['introduce']); ?></textarea>
 			</div>
@@ -71,8 +71,8 @@
 		</div>
 		<div class="image">
 			<div id="two"></div>
-			<div class="button2"><a class="submit">确认上传</a></div>	
-		</div>
+			<div class="button2"><a  id="edit" id="edit" class="submit">确认上传</a></div>	
+		</div> 
 	</div>
 	<script type="text/javascript">
     	var result = document.getElementById("two"); 

@@ -72,7 +72,7 @@ div.name-header {
 	float: left;
 	margin-left: 155px;
 }
-a {
+a#edit {
 	cursor: pointer;
 	padding: 11px 10px 10px 10px;
 }
@@ -126,9 +126,12 @@ input.profession {
 	border: 1px solid #757575;
 	background-color: rgb(243,244,246);
 }
+div.introduce {
+	height:40%;
+}
 textarea.introduce {
-	width: 400px;
-	height: 100px;
+	width: 490px;
+	height: 200px;
 	font-size: 16px;
 	color: #757575;
 	padding-left: 10px;
@@ -137,8 +140,8 @@ textarea.introduce {
 }
 input.edit-submit {
 	color:white;
+	margin-top: 20px;
 	text-align:center;
-	margin-top: 70px;
 	line-height: 30px;
 	font-size: 18px;
 	cursor: pointer;

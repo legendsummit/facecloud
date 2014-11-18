@@ -9,7 +9,6 @@ $(function(){
 		    	var sex1 = "女";
 		    	if(msg.sex == "M")
 		    		sex1 = "男";
-
 		    	$('div.image').html('<img src='+msg.url+' height="190px" />');
 		    	$('div#right-header').html(msg.name);
 		    	$('div.sex').html("性别：").append(sex1);
