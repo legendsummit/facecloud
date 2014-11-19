@@ -17,9 +17,9 @@
  	<div id="header">
  		<div class="logo"><h3>logo</h3></div>
  		<ul>
- 			<li><a>首页</a></li>
- 			<li><a>人物</a></li>
- 			<li><a>群组</a></li>
+ 			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
+ 			<li><a href="<?php echo U('Person/index');?>">人物</a></li>
+ 			<li><a href="<?php echo U('Group/index');?>">群组</a></li>
  			<li><a>个人信息</a></li>
  		</ul>
  	</div>

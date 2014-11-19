@@ -124,9 +124,6 @@ class PersonController extends Controller {
 		$Data=M('person');
 		$person_data=$Data->where(array('name'=>$name))->find();
 		$img_key=I('img_key');
-		echo $id.'<br>';
-		echo $img_key;
-		die();
 		$QINIURUL="http://legend-face.qiniudn.com/";
 		$url=$QINIURUL.$img_key;
 		//查找对应Face并删除
@@ -138,12 +135,12 @@ class PersonController extends Controller {
 		if($result['http_code']!=200){
 			//将图片从本地数据库中删除
 			$Image_data->where(array('id'=>$id,'url'=>$url))->delete();
-			$this->redirect('show',array('id'=>$id));
 			//将照片从七牛服务器删除
 			delete_qiniu_img($img_key);
+			$this->redirect('show',array('id'=>$id));	
 		}
 		else{
-			print_r($result);
+		 	print_r($result);
 		}
 	}
 	public function delete(){

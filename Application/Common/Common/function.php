@@ -61,9 +61,7 @@
 		$err = Qiniu_RS_Delete($client, $bucket, $key1);
 		if ($err !== null) {
 	   		 var_dump($err);
-		} else {
-	    	echo "Success!";
-		}
-
+		} 
+	    	
 	}
 ?>

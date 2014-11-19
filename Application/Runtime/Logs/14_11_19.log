@@ -7622,3 +7622,1144 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001802s ]
 
+[ 2014-11-19T18:02:45+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.199945s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.003489s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-11-19T18:02:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004230s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 1 )  [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-11-19T18:03:34+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008520s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 1 )  [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000835s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002740s ]
+
+[ 2014-11-19T18:05:46+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008907s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 1 )  [ RunTime:0.001367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002280s ]
+
+[ 2014-11-19T18:05:47+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006776s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2014-11-19T18:05:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/:U('Person/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006887s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2014-11-19T18:05:50+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/:U('Person/:U('Person/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006980s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2014-11-19T18:05:51+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/:U('Person/:U('Person/:U('Group/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007112s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2014-11-19T18:05:52+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/:U('Person/:U('Person/:U('Group/:U('Person/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008331s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-11-19T18:06:11+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/:U('Person/:U('Person/:U('Group/:U('Person/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007544s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+
+[ 2014-11-19T18:06:25+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/:U('Index/:U('Person/:U('Person/:U('Group/:U('Person/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007413s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 0 )  [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2014-11-19T18:06:26+08:00 ] ::1 /facecloud/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2014-11-19T18:06:29+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008437s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2014-11-19T18:06:31+08:00 ] ::1 /facecloud/index.php/Manage/Group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2014-11-19T18:07:00+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008953s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.010836s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2014-11-19T18:07:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007106s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007421s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000821s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2014-11-19T18:07:09+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006423s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 1 )  [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2014-11-19T18:07:17+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008467s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000776s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2014-11-19T18:07:19+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.004018s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.004305s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2014-11-19T18:07:20+08:00 ] ::1 /facecloud/index.php/Manage/Group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2014-11-19T18:07:22+08:00 ] ::1 /facecloud/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2014-11-19T18:07:24+08:00 ] ::1 /facecloud/index.php/Manage/Group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2014-11-19T18:07:25+08:00 ] ::1 /facecloud/index.php/Manage/Group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2014-11-19T18:07:26+08:00 ] ::1 /facecloud/index.php/Manage/Group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2014-11-19T18:07:27+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+NOTIC: [8] Undefined index: result F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+
+[ 2014-11-19T18:07:29+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2014-11-19T18:07:30+08:00 ] ::1 /facecloud/index.php/Manage/Group/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2014-11-19T18:07:31+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2014-11-19T18:07:33+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2014-11-19T18:07:34+08:00 ] ::1 /facecloud/index.php/Manage/Group/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-11-19T18:07:41+08:00 ] ::1 /facecloud/index.php/Manage/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2014-11-19T18:07:48+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006366s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2014-11-19T18:07:50+08:00 ] ::1 /facecloud/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2014-11-19T18:08:03+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.011367s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007783s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2014-11-19T18:08:03+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001780s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.011724s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009448s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2014-11-19T18:08:04+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010785s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.010322s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2014-11-19T18:08:04+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.006852s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009283s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002193s ]
+
+[ 2014-11-19T18:08:05+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010385s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.009217s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2014-11-19T18:08:06+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007796s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.008359s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000925s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2014-11-19T18:08:24+08:00 ] ::1 /facecloud/index.php/Manage/Person/showimages/pid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007031s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `pid` = 1 )  [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2014-11-19T18:09:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008508s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006584s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2014-11-19T18:09:35+08:00 ] ::1 /facecloud/index.php/Manage/Person/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.009371s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.007424s ]
+SQL: SELECT `id`,`url` FROM `fl_imageurls` WHERE ( `name` = '成龙' )  [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2014-11-19T18:09:36+08:00 ] ::1 /facecloud/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002232s ]
+
+[ 2014-11-19T18:09:38+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008574s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000685s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002257s ]
+
+[ 2014-11-19T18:10:03+08:00 ] ::1 /facecloud/index.php/Manage/Group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+NOTIC: [2048] Declaration of Manage\Controller\GroupController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\GroupController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000789s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2014-11-19T18:10:05+08:00 ] ::1 /facecloud/index.php/Manage/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.008359s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_person` LIMIT 1   [ RunTime:0.000666s ]
+SQL: SELECT * FROM `fl_person` LIMIT 0,10   [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Use of undefined constant search - assumed 'search' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Manage\0fd1760cea02ba5bef5656e311a67409.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002180s ]
+
+[ 2014-11-19T18:10:07+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007523s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.006909s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2014-11-19T18:10:08+08:00 ] ::1 /facecloud/index.php/Manage/Person/json?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+NOTIC: [2048] Declaration of Manage\Controller\PersonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\develop tools\wamp\www\facecloud\Application\Manage\Controller\PersonController.class.php 第 173 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.010309s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `fl_imageurls` [ RunTime:0.014434s ]
+SQL: SELECT * FROM `fl_imageurls` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002383s ]
+
+[ 2014-11-19T18:10:19+08:00 ] ::1 /facecloud/index.php/Home/Face/identify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant identify_handle - assumed 'identify_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Home\b8a658dcf3ec5697f4794811d8eeca38.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2014-11-19T18:10:38+08:00 ] ::1 /facecloud/index.php/Home/Face/identify_handle/time/1416391819.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '成龙' ) LIMIT 1   [ RunTime:0.000737s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '李连杰' ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '梁朝伟' ) LIMIT 1   [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2014-11-19T18:11:13+08:00 ] ::1 /facecloud/index.php/Home/Face/identify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant identify_handle - assumed 'identify_handle' F:\develop tools\wamp\www\facecloud\Application\Runtime\Cache\Home\b8a658dcf3ec5697f4794811d8eeca38.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2014-11-19T18:11:20+08:00 ] ::1 /facecloud/index.php/Home/Face/identify_handle/time/1416391873.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\develop tools\wamp\www\facecloud\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fl_person` [ RunTime:0.007723s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '成龙' ) LIMIT 1   [ RunTime:0.000900s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '科比' ) LIMIT 1   [ RunTime:0.000912s ]
+SQL: SELECT * FROM `fl_person` WHERE ( `name` = '梁朝伟' ) LIMIT 1   [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
