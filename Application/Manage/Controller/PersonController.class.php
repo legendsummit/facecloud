@@ -73,7 +73,7 @@ class PersonController extends Controller {
 		$urls=$ImageUrls->where(array('pid'=>$pid))->getField('id,url');
 		$this->urls=$urls;
 		$this->pid=$pid;
-		$this->display('imges');
+		$this->display('images');
 	}
 	public function show(){
 		$id=I('id');

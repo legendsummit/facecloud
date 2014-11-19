@@ -1,0 +1,24 @@
+<extend name="Common:base" />
+<block name="title">
+	<title>images</title>
+</block>
+<block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/images.css">
+</block>
+<block name="main">
+	<volist name="urls" id="url">
+		<div class="area">
+			<div class='img'>
+				<img class="lazy" data-original="{$url}">	
+				<a id="images" href="{:U('del_image',array('img_key'=>substr($url,31),'id'=>$pid))}">
+					<i class="fa fa-times"></i>
+				</a>
+			</div>	  
+		</div>  
+	</volist>
+	<div class="clear"></div>
+</block>
+<block name="extra_js">
+	<script type="text/javascript" src="__PUBLIC__/js/images.js"></script>
+	<script src="__PUBLIC__/js/jquery.lazyload.js?v=1.9.1"></script>
+</block>

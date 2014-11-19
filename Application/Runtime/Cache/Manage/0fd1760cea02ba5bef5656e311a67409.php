@@ -73,7 +73,7 @@
  	</div>
  	<div id="footer">
  		<div id="footer-left">Email：1420646999@qq.com</div>   
- 		<div id="footer-right">designed by  legend team<div>
+ 		<div id="footer-right">designed by  legend team</div>
  	</div>
  </body>
 </html>

@@ -19,7 +19,6 @@ $(function(){
 		    	$('a.detail').attr({"href":"/facecloud/index.php/Manage/Person/show/id/"+id+".html"});
 		    	console.log(id);
 		    }
-		});
-
+		})
 	})
 });

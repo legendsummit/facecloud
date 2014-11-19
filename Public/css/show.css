@@ -17,24 +17,25 @@ img {
 	float:right;
 }
 div.edit {
+	opacity: 0.6;
 	right: 60px;
 	top: 125px;
 	height: 30px;
 	width: 70px;
-	opacity: 0.8;
 	border-radius: 4px;
 	line-height: 30px;
 	font-size: 15px;
-	text-align: center;
-	color: white;
+	text-align: center;	
 	letter-spacing: 2px;
 	background-color: black;
 	position: absolute;
 }
 a.edit {
+	color: white;
 	cursor: pointer;
+	text-decoration: none;
 	padding: 8px 9px 8px 9px;
 }
-a.edit:hover {
+div.edit:hover {
 	opacity: 0.8
 }

@@ -2,17 +2,18 @@
  <head>
  	<meta charset="utf-8">
    
-	<title>修改</title>
+	<title>images</title>
 
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/font-awesome-4.2.0/css/font-awesome.css">
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/base.css">
    <script type="text/javascript" src="/facecloud/Public/jquery-2.1.1.js"></script>
    <script type="text/javascript" src="/facecloud/Public/js/base.js"></script>
    
-	<link rel="stylesheet" type="text/css" href="/facecloud/Public/css/show.css">
+	<link rel="stylesheet" type="text/css" href="/facecloud/Public/css/images.css">
 
    
-	<script type="text/javascript" src="/facecloud/Public/js/show.js"></script>
+	<script type="text/javascript" src="/facecloud/Public/js/images.js"></script>
+	<script src="/facecloud/Public/js/jquery.lazyload.js?v=1.9.1"></script>
 
  </head>
  <body>
@@ -27,17 +28,15 @@
  	</div>
  	<div id="content">
  		
-	<div class="introduce">
-		<?php $urls=getPersonImageUrl($data['name']);?>
-		<div class="img">
-			<img src="<?php echo ($urls[0]); ?>" width="170">
-			<div class="edit"><a class="edit" href="<?php echo U('showimages',array('pid'=>$data['id']));?>"><i class="fa fa-picture-o"></i>图集</a></div>
-		</div>
-		<?php echo ($data['name']); ?>&nbsp;
-		性别:<?php if(($data['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?>&nbsp;
-		职业:<?php echo ($data['profession']); ?><br>
-		简介:<?php echo ($data['introduce']); ?>	
-	</div>
+	<?php if(is_array($urls)): $i = 0; $__LIST__ = $urls;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$url): $mod = ($i % 2 );++$i;?><div class="area">
+			<div class='img'>
+				<img class="lazy" data-original="<?php echo ($url); ?>">	
+				<a id="images" href="<?php echo U('del_image',array('img_key'=>substr($url,31),'id'=>$pid));?>">
+					<i class="fa fa-times"></i>
+				</a>
+			</div>	  
+		</div><?php endforeach; endif; else: echo "" ;endif; ?>
+	<div class="clear"></div>
 
  	</div>
  	<div id="footer">
