@@ -37,7 +37,7 @@
 		性别:<?php if(($data['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?>&nbsp;
 		职业:<?php echo ($data['profession']); ?>&nbsp;
 		<a id="index" href="<?php echo U('edit',array('id'=>$data['id']));?>">编辑</a><br>
-		简介:<?php echo ($data['introduce']); ?>	
+		简介:<div><?php echo ($data['introduce']); ?></div>
 	</div>
 
  	</div>

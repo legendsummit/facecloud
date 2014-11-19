@@ -98,8 +98,10 @@ form.edit {
 	margin-left: 15px;
 }
 div.edit {
-	line-height: 50px;
-	height:50px;
+	height:45px;
+}
+div.edit-sex {
+	height:30px;
 }
 div.label {
 	float: left;

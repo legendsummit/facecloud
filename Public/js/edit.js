@@ -39,10 +39,10 @@ $(function(){
 		$('input.file').bind('change',function(event){
 			$('div.button2').css({'display':'block'});
 		})
-		$('div.edit input,textarea').dblclick(function(){
+		$('div.edit input').dblclick(function(){
 			$(this).removeAttr('readonly').css({'background-color':'white'});
 		})
-		$('div.edit input,textarea').blur(function(){
+		$('div.edit input').blur(function(){
 			$(this).attr({readonly:'readonly'}).css({'background-color':'rgb(243,244,246)'});
 		})
 
@@ -61,5 +61,10 @@ $(function(){
             	$("#two").html("<img src='"+this.result+"' alt='' width='200'/>");
             }
         });
+
+        $('textarea').dblclick(function(){
+        	$('div.label').remove();
+        	$('#ckeditor').html("CKEDITOR.replace('introduce');")
+        })
 	})
 })

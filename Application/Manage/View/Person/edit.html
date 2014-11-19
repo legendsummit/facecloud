@@ -29,7 +29,7 @@
 			</div>
 		</form>
 
-		<div class="add" data-url="{:U(add_image_handle,array('time'=>$time,'id'=>$data['id']))}">添加图片到{$data['name']}</div>
+		<div class="add" data-url="{:U(add_image_handle,array('time'=>$time,'id'=>$data['id']))}"></div>
 		<form class="edit" action="{:U('edit_handle')}" method="post">	
 			<div>
 				<input type="hidden" name="id" value="{$data['id']}">
@@ -37,7 +37,7 @@
 			<div class="edit">
 				姓名：<input class=name type="text" readonly="readonly"  name="name" value="{$data['name']}" />
 			</div>
-			<div class="edit">
+			<div class="edit edit-sex">
 				<label>性别：</label>
 				<input class="sex" type="radio" readonly="readonly"  name="sex" value="M" 
 					<eq name='data["sex"]' value='M'>checked="checked"</eq> /> 男
@@ -49,11 +49,12 @@
 			</div>
 			<div class="introduce">
 				<div class="label">简介：</div>
-				<textarea class="introduce" readonly="readonly"  name="introduce" >{$data['introduce']}</textarea>
+				<textarea class="introduce" id="introduce" readonly="readonly"  name="introduce" >{$data['introduce']}</textarea>
+				<script type="text/javascript" id="ckeditor"></script>
 			</div>
+			
 			<input class="edit-submit" type="submit" value="修改" />
 		</form>
-		<a href="{:U('show',array('id'=>$data['id']))}">详情</a>
 	</div>		    				
 	<div id="right">
 		<div id="right-header">
@@ -64,8 +65,14 @@
 			<div class="button2"><a  id="edit" id="edit" class="submit">确认上传</a></div>	
 		</div> 
 	</div>
-	<iframe id='ifm' name='ifm' style="" hidden/>
+	<iframe id='ifm' name='ifm' style="display:none" />
 </block>
 <block name="extra_js">
 	<script type="text/javascript" src="__PUBLIC__/js/edit.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.colors.js"></script>  
+    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.styles.js"></script>  
+    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.syntax.js"></script>  
+    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.undoredomanager.js"></script>  
+    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.min.js"></script>  
 </block>

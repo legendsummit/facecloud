@@ -60,6 +60,8 @@ class PersonController extends Controller {
 		$data=I('post.');
 		$oldperson=$person->where(array('id'=>$data['id']))->find();
 		$name=$oldperson['name'];
+		var_dump($data);
+		die();
 		//修改face++上的信息/person/set_info
 		$facepp = new \Org\Util\Facepp();
 		$params=array('person_name'=>$name,'name'=>$data['name']);

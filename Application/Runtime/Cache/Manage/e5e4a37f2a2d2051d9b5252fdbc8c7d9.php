@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
  <head>
- 	<meta charset="utf-8">
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <title>add image</title>
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/font-awesome-4.2.0/css/font-awesome.css">
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/base.css">
@@ -11,6 +11,12 @@
 
    
 	<script type="text/javascript" src="/facecloud/Public/js/edit.js"></script>
+	<script type="text/javascript" src="/facecloud/Public/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.colors.js"></script>  
+    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.styles.js"></script>  
+    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.syntax.js"></script>  
+    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.undoredomanager.js"></script>  
+    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.min.js"></script>  
 
  </head>
  <body>
@@ -42,7 +48,7 @@
 			</div>
 		</form>
 
-		<div class="add" data-url="<?php echo U(add_image_handle,array('time'=>$time,'id'=>$data['id']));?>">添加图片到<?php echo ($data['name']); ?></div>
+		<div class="add" data-url="<?php echo U(add_image_handle,array('time'=>$time,'id'=>$data['id']));?>"></div>
 		<form class="edit" action="<?php echo U('edit_handle');?>" method="post">	
 			<div>
 				<input type="hidden" name="id" value="<?php echo ($data['id']); ?>">
@@ -50,7 +56,7 @@
 			<div class="edit">
 				姓名：<input class=name type="text" readonly="readonly"  name="name" value="<?php echo ($data['name']); ?>" />
 			</div>
-			<div class="edit">
+			<div class="edit edit-sex">
 				<label>性别：</label>
 				<input class="sex" type="radio" readonly="readonly"  name="sex" value="M" 
 					<?php if(($data["sex"]) == "M"): ?>checked="checked"<?php endif; ?> /> 男
@@ -62,11 +68,12 @@
 			</div>
 			<div class="introduce">
 				<div class="label">简介：</div>
-				<textarea class="introduce" readonly="readonly"  name="introduce" ><?php echo ($data['introduce']); ?></textarea>
+				<textarea class="introduce" id="introduce" readonly="readonly"  name="introduce" ><?php echo ($data['introduce']); ?></textarea>
+				<script type="text/javascript" id="ckeditor"></script>
 			</div>
+			
 			<input class="edit-submit" type="submit" value="修改" />
 		</form>
-		<a href="<?php echo U('show',array('id'=>$data['id']));?>">详情</a>
 	</div>		    				
 	<div id="right">
 		<div id="right-header">
@@ -77,7 +84,7 @@
 			<div class="button2"><a  id="edit" id="edit" class="submit">确认上传</a></div>	
 		</div> 
 	</div>
-	<iframe id='ifm' name='ifm' style="" hidden/>
+	<iframe id='ifm' name='ifm' style="display:none" />
 
  	</div>
  	<div id="footer">

@@ -16,7 +16,7 @@
 		性别:<eq name="data['sex']" value="M">男<else/>女</eq>&nbsp;
 		职业:{$data['profession']}&nbsp;
 		<a id="index" href="{:U('edit',array('id'=>$data['id']))}">编辑</a><br>
-		简介:{$data['introduce']}	
+		简介:<div>{$data['introduce']}</div>
 	</div>
 </block>
 <block name="extra_js">
