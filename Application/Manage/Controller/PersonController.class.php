@@ -30,6 +30,7 @@ class PersonController extends Controller {
 	public function create_handle(){
 		$facepp = new \Org\Util\Facepp();
 		$data=I('post.');
+		$data['introduce']=htmlspecialchars_decode($data['introduce']);
 	    //person信息
 		$person_params=array('person_name'=>$data['name']);
 		$responseperson=$facepp->execute('/person/create',$person_params);
@@ -58,10 +59,9 @@ class PersonController extends Controller {
 	public function edit_handle(){
 		$person=M('person');
 		$data=I('post.');
+		$data['introduce']=htmlspecialchars_decode($data['introduce']);
 		$oldperson=$person->where(array('id'=>$data['id']))->find();
 		$name=$oldperson['name'];
-		var_dump($data);
-		die();
 		//修改face++上的信息/person/set_info
 		$facepp = new \Org\Util\Facepp();
 		$params=array('person_name'=>$name,'name'=>$data['name']);

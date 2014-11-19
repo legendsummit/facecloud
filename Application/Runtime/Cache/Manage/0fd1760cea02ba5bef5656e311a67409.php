@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
  <head>
- 	<meta charset="utf-8">
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <title>标题</title>
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/font-awesome-4.2.0/css/font-awesome.css">
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/base.css">

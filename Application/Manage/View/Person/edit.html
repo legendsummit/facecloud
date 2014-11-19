@@ -30,12 +30,13 @@
 		</form>
 
 		<div class="add" data-url="{:U(add_image_handle,array('time'=>$time,'id'=>$data['id']))}"></div>
-		<form class="edit" action="{:U('edit_handle')}" method="post">	
+		<form class="edit" action="{:U('edit_handle')}" method="post" enctype="multipart/form-data">	
 			<div>
 				<input type="hidden" name="id" value="{$data['id']}">
 			</div>
 			<div class="edit">
 				姓名：<input class=name type="text" readonly="readonly"  name="name" value="{$data['name']}" />
+				
 			</div>
 			<div class="edit edit-sex">
 				<label>性别：</label>
@@ -70,9 +71,4 @@
 <block name="extra_js">
 	<script type="text/javascript" src="__PUBLIC__/js/edit.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/ckeditor/ckeditor.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.colors.js"></script>  
-    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.styles.js"></script>  
-    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.syntax.js"></script>  
-    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.undoredomanager.js"></script>  
-    <script type="text/javascript" src="__PUBLIC__/htmlbox/htmlbox.min.js"></script>  
 </block>

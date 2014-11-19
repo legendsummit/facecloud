@@ -29,6 +29,6 @@ class DatabaseController extends Controller {
                 $ImageUrls->add($data);
             }
         }
-        echo 'success!';
+        $this->redirect('Manage/Index/index');
 	}
 }

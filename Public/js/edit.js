@@ -66,5 +66,8 @@ $(function(){
         	$('div.label').remove();
         	$('#ckeditor').html("CKEDITOR.replace('introduce');")
         })
+        $('input.edit-submit').click(function(){
+        	console.log($('textarea').html());
+        })
 	})
 })

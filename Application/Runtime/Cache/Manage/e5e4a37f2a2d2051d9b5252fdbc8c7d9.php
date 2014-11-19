@@ -12,11 +12,6 @@
    
 	<script type="text/javascript" src="/facecloud/Public/js/edit.js"></script>
 	<script type="text/javascript" src="/facecloud/Public/ckeditor/ckeditor.js"></script>
-	<script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.colors.js"></script>  
-    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.styles.js"></script>  
-    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.syntax.js"></script>  
-    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.undoredomanager.js"></script>  
-    <script type="text/javascript" src="/facecloud/Public/htmlbox/htmlbox.min.js"></script>  
 
  </head>
  <body>
@@ -49,12 +44,13 @@
 		</form>
 
 		<div class="add" data-url="<?php echo U(add_image_handle,array('time'=>$time,'id'=>$data['id']));?>"></div>
-		<form class="edit" action="<?php echo U('edit_handle');?>" method="post">	
+		<form class="edit" action="<?php echo U('edit_handle');?>" method="post" enctype="multipart/form-data">	
 			<div>
 				<input type="hidden" name="id" value="<?php echo ($data['id']); ?>">
 			</div>
 			<div class="edit">
 				姓名：<input class=name type="text" readonly="readonly"  name="name" value="<?php echo ($data['name']); ?>" />
+				
 			</div>
 			<div class="edit edit-sex">
 				<label>性别：</label>
