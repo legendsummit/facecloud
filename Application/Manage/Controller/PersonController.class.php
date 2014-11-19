@@ -126,22 +126,18 @@ class PersonController extends Controller {
 		$img_key=I('img_key');
 		$QINIURUL="http://legend-face.qiniudn.com/";
 		$url=$QINIURUL.$img_key;
+		delete_qiniu_img($img_key);
 		//查找对应Face并删除
 		$Image_data=M('imageurls');
 		$image_data=$Image_data->where(array('url'=>$url))->find();
 		//从FACE++中删除
 		$params=array('person_name'=>$name,'face_id'=>$image_data['face_id']);
 		$result=getResponse('/person/remove_face',$params);
-		if($result['http_code']!=200){
-			//将图片从本地数据库中删除
-			$Image_data->where(array('id'=>$id,'url'=>$url))->delete();
-			//将照片从七牛服务器删除
-			delete_qiniu_img($img_key);
-			$this->redirect('show',array('id'=>$id));	
-		}
-		else{
-		 	print_r($result);
-		}
+		//将图片从本地数据库中删除
+		$Image_data->where(array('url'=>$url))->delete();
+		//将照片从七牛服务器删除
+		delete_qiniu_img($img_key);
+		$this->redirect('showimages',array('pid'=>$id));	
 	}
 	public function delete(){
 		$facepp=new \Org\Util\Facepp();
@@ -153,8 +149,7 @@ class PersonController extends Controller {
 		$response=$facepp->execute('/person/delete',array('person_name'=>$name));
 		if($response['http_code']==200){
 			//从数据库中删除人物信息
-			$Person=M('person');
-			$Person->where(array('name'=>$name))->delete(); 
+			$Person_Info->where(array('id'=>$id))->delete(); 
 			//删除七牛服务器中人物的照片
 			$Image=M('imageurls');
 			$images=$Image->where(array('name'=>$name))->select();
@@ -163,7 +158,7 @@ class PersonController extends Controller {
 				delete_qiniu_img($key);
 			}
 			//将人物从数据库删除
-			$Image->where(array('id'=>$id))->delete();
+			$Image->where(array('pid'=>$id))->delete();
 			$this->redirect('index');
 		}
 		else{

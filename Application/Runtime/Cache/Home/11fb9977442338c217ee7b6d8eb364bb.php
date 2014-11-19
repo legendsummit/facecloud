@@ -6,9 +6,11 @@
 </head>
 <body>
 	<h3>搜索结果</h3>
-	<?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>姓名:<?php echo ($vo["name"]); ?><br>
-		职业:<?php echo ($vo["profession"]); ?><br>
-		简介:<?php echo ($vo["introduce"]); ?><br>
-		相似度:<?php echo ($vo["confidence"]); ?><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
+		姓名:<?php echo ($result["name"]); ?><br>
+		职业:<?php echo ($result["profession"]); ?><br>
+		简介:<?php echo ($result["introduce"]); ?><br>
+		相似度:<?php echo ($result["confidence"]); ?><br><br>
+	<a href="<?php echo U('Home/Index/index');?>">返回首页</a><br/>
+	<a href="<?php echo U(identify);?>">再来一次</a>
 </body>
 </html>

@@ -6,11 +6,11 @@
 </head>
 <body>
 	<h3>搜索结果</h3>
-	<volist name="result" id="vo">
-		姓名:{$vo.name}<br>
-		职业:{$vo.profession}<br>
-		简介:{$vo.introduce}<br>
-		相似度:{$vo.confidence}<br><br>
-		</volist>
+		姓名:{$result.name}<br>
+		职业:{$result.profession}<br>
+		简介:{$result.introduce}<br>
+		相似度:{$result.confidence}<br><br>
+	<a href="{:U('Home/Index/index')}">返回首页</a><br/>
+	<a href="{:U(identify)}">再来一次</a>
 </body>
 </html>

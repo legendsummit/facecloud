@@ -4,10 +4,6 @@ namespace Home\Controller;
 use Think\Controller;
 class FaceController extends Controller {
     public function index(){
-    	$person_id="fd99ba5c58879e24d72d";
-    	$Person = M("person"); 
-    	$data = $Person->where(array('person_id'=>$person_id))->find();
-    	var_dump($data);
 	}
 	public function identify(){
 		$this->name=I('name');
@@ -29,12 +25,9 @@ class FaceController extends Controller {
 			//获得搜索最相似的三个人
 			$i=0; 
 			$Person=M("person");
-			foreach ($response as $vo) {
-				$person_name=$vo['person_name'];
-    			$result[$i]=$Person->where(array('name'=>$vo['person_name']))->find();
-    			$result[$i]['confidence']=$vo['confidence'];
-    			$i++;	
-			}
+			$person_name=$response[0]['person_name'];
+			$result=$Person->where(array('name'=>$person_name))->find();
+			$result['confidence']=$response[0]['confidence'];
 			$this->result=$result;
 			$this->display('result');
 		}

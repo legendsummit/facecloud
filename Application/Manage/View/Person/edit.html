@@ -53,6 +53,7 @@
 			</div>
 			<input class="edit-submit" type="submit" value="修改" />
 		</form>
+		<a href="{:U('show',array('id'=>$data['id']))}">详情</a>
 	</div>		    				
 	<div id="right">
 		<div id="right-header">
@@ -63,7 +64,7 @@
 			<div class="button2"><a  id="edit" id="edit" class="submit">确认上传</a></div>	
 		</div> 
 	</div>
-	<iframe id='ifm' name='ifm' style="" />
+	<iframe id='ifm' name='ifm' style="" hidden/>
 </block>
 <block name="extra_js">
 	<script type="text/javascript" src="__PUBLIC__/js/edit.js"></script>

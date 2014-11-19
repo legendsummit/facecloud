@@ -21,7 +21,8 @@
 	</form>
 	<br>
 	上传完成后请等待1-2秒后再识别，否则可能识别失败
-	<a href="<?php echo U(identify_handle,array('time'=>$time));?>">识别图片</a>
+	<a href="<?php echo U(identify_handle,array('time'=>$time));?>">识别图片</a><br>
+	<a href="<?php echo U('Home/Index/index');?>">返回首页</a><br/>
 	<br>
  </body>
  </html>

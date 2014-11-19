@@ -28,6 +28,7 @@
  	</div>
  	<div id="content">
  		
+	<a href="<?php echo U('show',array('id'=>$pid));?>">人物信息</a><br>
 	<?php if(is_array($urls)): $i = 0; $__LIST__ = $urls;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$url): $mod = ($i % 2 );++$i;?><div class="area">
 			<div class='img'>
 				<img class="lazy" data-original="<?php echo ($url); ?>">	

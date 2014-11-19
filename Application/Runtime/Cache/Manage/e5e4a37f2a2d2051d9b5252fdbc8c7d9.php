@@ -17,9 +17,9 @@
  	<div id="header">
  		<div class="logo"><h3>logo</h3></div>
  		<ul>
- 			<li><a>首页</a></li>
- 			<li><a>人物</a></li>
- 			<li><a>群组</a></li>
+ 			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
+ 			<li><a href="<?php echo U('Person/index');?>">人物</a></li>
+ 			<li><a href="<?php echo U('Group/index');?>">群组</a></li>
  			<li><a>个人信息</a></li>
  		</ul>
  	</div>
@@ -66,6 +66,7 @@
 			</div>
 			<input class="edit-submit" type="submit" value="修改" />
 		</form>
+		<a href="<?php echo U('show',array('id'=>$data['id']));?>">详情</a>
 	</div>		    				
 	<div id="right">
 		<div id="right-header">
@@ -76,7 +77,7 @@
 			<div class="button2"><a  id="edit" id="edit" class="submit">确认上传</a></div>	
 		</div> 
 	</div>
-	<iframe id='ifm' name='ifm' style="" />
+	<iframe id='ifm' name='ifm' style="" hidden/>
 
  	</div>
  	<div id="footer">
