@@ -2,7 +2,7 @@
 // 数据库同步控制块
 namespace Manage\Controller;
 use Think\Controller;
-class DatabaseController extends Controller {
+class DatabaseController extends CommonController {
     public function index(){
 	}
 	//将person_images同步到本地数据库fl_imageurls中
@@ -32,3 +32,4 @@ class DatabaseController extends Controller {
         $this->redirect('Manage/Index/index');
 	}
 }
+?>

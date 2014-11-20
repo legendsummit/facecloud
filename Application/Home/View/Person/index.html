@@ -1,0 +1,55 @@
+<extend name="Common:base" />
+<block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+</block>
+<block name="main">
+	<div id="left">
+		<div id="left-header">
+			<form action="{:U(search)}" method="post">
+				<div class="input">
+					<input type="text" name="name" placeholder="请输入搜索姓名">
+				</div>
+				<div class="search">
+					<a id="index" class="search-icon"><i class="fa fa-search"></i></a>
+				</div>
+			</form>
+		</div>
+		<table border="0" cellspacing="1">
+			<tr id="th">
+				<th width="50%">姓名</th>
+				<th width="50%">操作</th>
+			</tr>
+			<volist name="data" id="vo">
+				<tr id="td" height="22px">
+					<td>&nbsp;&nbsp;<i class="fa fa-user"></i></i>
+						&nbsp;&nbsp;&nbsp;&nbsp;{$vo.name}
+					</td>
+					<td align="center">
+						<a class="delete" id="index" href="{:U('delete',array('id'=>$vo['id']))}">删除</a>
+						&nbsp;&nbsp;
+						<a id="index" href="{:U('edit',array('id'=>$vo['id']))}">编辑</a>&nbsp;&nbsp;
+						<a class="view" id="index" data-id="<?php echo $vo['id'] ?>" >预览</a>
+					</td>
+				</tr>
+			</volist>		
+		</table>
+		<div class="result page">{$page}</div>		    				
+	</div>
+	<div id="right">
+		<div id="right-header">
+			未选择人物
+		</div>
+		<div class="image"></div>
+		<div class="message">
+			<div class="sex one"></div>
+			<div class="profession one"></div>
+			<div class="introduce one"></div>
+			<div class="detail one">
+				<a class="detail">详情<i class="fa fa-angle-double-right"></i></a>
+			</div>
+		</div>
+	</div>
+</block>
+<block name="extra_js">
+	<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+</block>

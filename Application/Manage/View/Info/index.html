@@ -1,0 +1,10 @@
+<extend name="Common:base" />
+ <block name="title"><title>管理员列表</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
+	<volist name="data" id="vo">
+		{$vo.user}-{$vo.name}<br>
+	</volist>
+</block>

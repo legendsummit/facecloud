@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>搜索结果</title>
-</head>
-<body>
+<extend name="Common:base" />
+ <block name="title"><title>结果</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
 	<h3>搜索结果</h3>
 		姓名:{$result.name}<br>
 		职业:{$result.profession}<br>
@@ -12,5 +11,4 @@
 		相似度:{$result.confidence}<br><br>
 	<a href="{:U('Home/Index/index')}">返回首页</a><br/>
 	<a href="{:U(identify)}">再来一次</a>
-</body>
-</html>
+</block>

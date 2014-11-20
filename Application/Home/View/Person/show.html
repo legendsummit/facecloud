@@ -1,0 +1,26 @@
+<extend name="Common:base" />
+<block name="title">
+	<title>修改</title>
+</block>
+<block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/show.css">
+</block>
+<block name="main">
+	<div class="introduce">
+		<?php $urls=getPersonImageUrl($data['name']);?>
+		<div class="img">
+			<img src="{$urls[0]}" width="170">
+			<div class="edit"><a class="edit" href="{:U('showimages',array('pid'=>$data['id']))}"><i class="fa fa-picture-o"></i>图集</a></div>
+		</div>
+		{$data['name']}&nbsp;
+		性别:<eq name="data['sex']" value="M">男<else/>女</eq>&nbsp;
+		职业:{$data['profession']}&nbsp;
+		<a id="index" href="{:U('edit',array('id'=>$data['id']))}">编辑</a><br>
+		简介:<div>{$data['introduce']}</div>
+	</div>
+</block>
+<block name="extra_js">
+	<script type="text/javascript" src="__PUBLIC__/js/show.js"></script>
+</block>
+<a href="{:U(edit,array('name'=>$data['name']))}">修改</a>
+	<a href="{:U('index')}">返回首页</a>

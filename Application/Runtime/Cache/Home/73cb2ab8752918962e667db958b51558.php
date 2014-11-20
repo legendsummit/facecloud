@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
  <head>
  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   <title>识别</title>
+   <title>用户编辑</title>
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/font-awesome-4.2.0/css/font-awesome.css">
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/base.css">
    <script type="text/javascript" src="/facecloud/Public/jquery-2.1.1.js"></script>
@@ -23,25 +23,16 @@
  	</div>
  	<div id="content">
  		
-	注意:必须上传完图片后才可以识别明星<br>
- 	<?php  require_once("Public/php/qiniu/rs.php"); $accessKey = 'O382ET2CmCVfdylV3kK31uQQacE595YNm8hOrBf5'; $secretKey = 'H91chSYT4fIBMgNvfV_oVRhWFzNHIvHPGeSh0FNs'; Qiniu_SetKeys($accessKey, $secretKey); $bucket = 'legend-image'; $putPolicy = new Qiniu_RS_PutPolicy($bucket); $upToken = $putPolicy->Token(null); ?>
- 	<form id="fom" method="post" action="http://up.qiniu.com" name="form" enctype="multipart/form-data">
-	    <ul>
-	    		<input type="hidden" id="token" name="token" value="<?php echo $upToken ?>" >
-	        	<input name="key" value="<?php echo ($time); ?>" type="hidden">
-	    	<li>
-	    		<label for="bucket">图片:</label>			
-	    		<input name="file"type="file" /><br>
-	    	</li>
-	    	<li>			
-	    		<input type="submit" value="上传图片" >	<br>	
-	    	</li>
-	    </ul>
+	<form action="<?php echo U('edit_handle');?>" method="post">	
+		用户名:<input type="text"  name="user" value="<?php echo ($data['user']); ?>" /><br>
+		昵称: <input type="text" name="name" value="<?php echo ($data['name']); ?>"><br>
+		密码: <input type="password" name="password"><br>
+		手机: <input type="text" name="phone" value="<?php echo ($data['phone']); ?>"><br>
+		邮箱：<input type="text" name="email" value="<?php echo ($data['email']); ?>"><br>
+		<input type="hidden" name="id" value="<?php echo ($data['id']); ?>">
+		<input type="submit" value="编辑" />
 	</form>
-	<br>
-	<a href="<?php echo U(identify_handle,array('time'=>$time));?>">识别图片</a><br><br>
-	<a href="<?php echo U('Home/Index/index');?>">返回首页</a><br/>
-	<br>
+	<a href="<?php echo U('show');?>">详情</a>
 
  	</div>
  	<div id="footer">

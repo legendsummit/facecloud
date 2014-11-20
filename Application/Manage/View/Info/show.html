@@ -1,0 +1,10 @@
+<extend name="Common:base" />
+ <block name="title"><title>管理员信息</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
+	用户名:{$data['user']}<br>
+	昵称:{$data['name']}<br>
+	<a href="{:U('edit')}">编辑</a>
+</block>

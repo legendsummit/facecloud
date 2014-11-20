@@ -1,10 +1,11 @@
-<html>
- <head>
-   <title>Select Data</title>
- </head>
- <body>
- 	<h3>这是前台首页</h3>
+<extend name="Common:base" />
+ <block name="title"><title>首页</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
+	<h3>这是前台首页</h3>
     <a href="{:U('Face/identify')}">人物搜素</a><br/>
+    <a href="{:U('User/show')}">个人信息</a><br>
     <a href="{:U('Manage/Index/index')}">后台管理</a>
- </body>
-</html> 
+</block>

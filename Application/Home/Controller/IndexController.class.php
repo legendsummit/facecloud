@@ -8,4 +8,8 @@ class IndexController extends Controller {
         $this->data = $Data->select();
         $this->display();
     }
+    public function edit(){
+    	$id=I('id');
+    	
+    }
 }

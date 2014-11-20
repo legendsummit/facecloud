@@ -1,10 +1,10 @@
- <html>
- <head>
- 	<meta charset="utf-8">
- 	<title>识别明星</title>
- </head>
- <body>
- 	注意:必须上传完图片后才可添加到明星<br>
+ <extend name="Common:base" />
+ <block name="title"><title>识别</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
+	注意:必须上传完图片后才可以识别明星<br>
  	<?php 
  		require_once("Public/php/qiniu/rs.php");
 		$accessKey = 'O382ET2CmCVfdylV3kK31uQQacE595YNm8hOrBf5';
@@ -20,17 +20,15 @@
 	        	<input name="key" value="{$time}" type="hidden">
 	    	<li>
 	    		<label for="bucket">图片:</label>			
-	    		<input name="file"type="file" />	
+	    		<input name="file"type="file" /><br>
 	    	</li>
 	    	<li>			
-	    		<input type="submit" value="上传图片" >		
+	    		<input type="submit" value="上传图片" >	<br>	
 	    	</li>
 	    </ul>
 	</form>
 	<br>
-	上传完成后请等待1-2秒后再识别，否则可能识别失败
-	<a href="{:U(identify_handle,array('time'=>$time))}">识别图片</a><br>
+	<a href="{:U(identify_handle,array('time'=>$time))}">识别图片</a><br><br>
 	<a href="{:U('Home/Index/index')}">返回首页</a><br/>
 	<br>
- </body>
- </html>
+</block>

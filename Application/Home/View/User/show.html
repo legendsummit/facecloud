@@ -1,0 +1,12 @@
+<extend name="Common:base" />
+ <block name="title"><title>用户信息</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
+	用户名:{$data['user']}<br>
+	昵称:{$data['name']}<br>
+	手机:{$data['phone']}<br>
+	邮箱:{$data['email']}<br>
+	<a href="{:U('edit')}">编辑</a>
+</block>

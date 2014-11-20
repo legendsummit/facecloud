@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
  <head>
- 	<meta charset="utf-8">
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    
 	<title>images</title>
 
@@ -23,7 +23,7 @@
  			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
  			<li><a href="<?php echo U('Person/index');?>">人物</a></li>
  			<li><a href="<?php echo U('Group/index');?>">群组</a></li>
- 			<li><a>个人信息</a></li>
+ 			<li><a href="<?php echo U('Info/show');?>">个人信息</a></li>
  		</ul>
  	</div>
  	<div id="content">

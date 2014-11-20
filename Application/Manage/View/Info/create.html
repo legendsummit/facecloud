@@ -1,0 +1,13 @@
+<extend name="Common:base" />
+ <block name="title"><title>创建管理员</title></block>
+ <block name="extra_css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/edit.css">
+</block>
+<block name="main">
+	<form action="{:U('create_handle')}" method="post">	
+		用户名:<input type="text"  name="user" /><br>
+		昵称: <input type="text" name="name"><br>
+		密码: <input type="password" name="password"><br>
+		<input type="submit" value="创建" />
+	</form>
+</block>
