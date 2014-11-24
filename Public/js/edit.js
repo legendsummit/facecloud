@@ -27,10 +27,10 @@ $(function(){
 				    type: "GET",
 				    url: 'http://localhost/'+add_url,
 				    success: function(msg){
-				    	console.log('success');
+				    	alert("上传成功！");
 				    },
 				    error: function(msg){
-				    	console.log('error');
+				    	alert("上传失败！");
 				    }
 				});
 				// }
@@ -40,10 +40,10 @@ $(function(){
 			$('div.button2').css({'display':'block'});
 		})
 		$('div.edit input').dblclick(function(){
-			$(this).removeAttr('readonly').css({'background-color':'white'});
+			$(this).removeAttr('readonly').removeAttr('title').css({'background-color':'white'});
 		})
 		$('div.edit input').blur(function(){
-			$(this).attr({readonly:'readonly'}).css({'background-color':'rgb(243,244,246)'});
+			$(this).attr({readonly:'readonly','title':'双击进行修改'}).css({'background-color':'rgb(243,244,246)'});
 		})
 
 

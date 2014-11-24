@@ -10,6 +10,7 @@ div#left {
 	margin-left: 10px;
 	border-radius: 10px;
 	float:left;
+	box-shadow: 0px 1px 6px #888888;
 }
 div#left-header {
 	width: 100%;
@@ -90,6 +91,7 @@ div#right {
 	margin-right: 10px;
 	border-radius: 10px;
 	float:right;
+	box-shadow: 0px 1px 6px #888888;
 }
 div#right-header {
 	width: 100%;
@@ -105,7 +107,7 @@ div.image {
 	margin-top: 10px;
 	text-align: center;
 }
-img {
+img.index {
 	margin-top: 10px;
 }
 div.message {
@@ -135,4 +137,28 @@ div.detail a {
 }
 div.detail a:hover {
 	color: red;
+}
+div.edit {
+	display: none;
+	opacity: 0.6;
+	right: 60px;
+	top: 340px;
+	right: 305px;
+	width: 70px;
+	border-radius: 4px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;	
+	letter-spacing: 2px;
+	background-color: black;
+	position: absolute;
+}
+a.edit {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 8px 9px 8px 9px;
+}
+div.edit:hover {
+	opacity: 0.8
 }

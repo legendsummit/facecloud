@@ -37,7 +37,8 @@ CKEDITOR.editorConfig = function( config ) {
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 
 	config.language = 'zh-cn';
-
-	config.width = 500; //文本域宽度
-    config.height = 100;//文本域高度
+	
+	config.toolbarCanCollapse = true;
+	config.width = 580; //文本域宽度
+    config.height = 140;//文本域高度
 };

@@ -10,7 +10,7 @@ div.introduce {
 div.img {
 	position: relative;
 }
-img {
+img.show {
 	margin-bottom: 10px;
 	margin-right: 35px;
 	margin-left: 30px;
@@ -34,8 +34,75 @@ a.edit {
 	color: white;
 	cursor: pointer;
 	text-decoration: none;
-	padding: 8px 9px 8px 9px;
+	padding: 7px 8px 7px 8px;
 }
 div.edit:hover {
 	opacity: 0.8
+}
+div#first-left {
+	position: fixed;
+	width: 30px;
+	height: 400px;
+	text-align: center;
+	top: 108px;
+	left: 184px;
+}
+div.underline {
+	position: fixed;
+	height: 400px;
+	width: 26px;
+	border-radius: 10px 0px 0px 0px;
+	border-left: 1px dashed gray;
+	left: 197px;
+}
+ul.show-ul {
+	width: 30px;
+	height: 400px;
+	margin-left: -42px;
+	border-radius: 9px 0px 0px 0px;
+	list-style-type: none;
+}
+li.show-li {
+	margin-bottom: 70px;
+}
+li.show-li a i {
+	color:green;
+	font-weight: bold;
+	background-color: rgb(237,237,237);
+}
+li.show-li a:active {
+	color:red;
+}
+h1 {
+	opacity: 0.8;
+	color:black;
+}
+h2 {
+	color:rgb(19,130,237);
+}
+h3 {
+	opacity: 0.7;
+	color:black;
+}
+p a {
+	color:rgb(19,110,194);
+	text-decoration: none;
+	opacity: 0.8;
+}
+p a:hover {
+	text-decoration: underline;
+}
+a#show {
+	opacity: 0.6;
+	position: fixed;
+	text-decoration: none;
+	color: white;	
+	padding: 15px 5px 15px 5px;
+	bottom: 50;
+	right: 130px;
+	background-color: black;
+	border-radius: 54px;
+}
+a#show:hover {
+	opacity:0.9;
 }

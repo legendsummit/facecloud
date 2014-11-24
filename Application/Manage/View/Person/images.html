@@ -6,15 +6,19 @@
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/images.css">
 </block>
 <block name="main">
-	<a href="{:U('show',array('id'=>$pid))}">人物信息</a><br>
+	<a id="imagesToShow" href="{:U('show',array('id'=>$pid))}">
+		<p>详细<br>信息</p>
+	</a>
 	<volist name="urls" id="url">
 		<div class="area">
-			<div class='img'>
-				<img class="lazy" data-original="{$url}">	
-				<a id="images" href="{:U('del_image',array('img_key'=>substr($url,31),'id'=>$pid))}">
-					<i class="fa fa-times"></i>
-				</a>
-			</div>	  
+			<a href="{:U('images-Allshow',array('pid'=>$pid))}">
+				<div class='img' data-pid={$pid}>
+					<img class="lazy" src="{$url}">	
+					<a id="images" href="{:U('del_image',array('img_key'=>substr($url,31),'id'=>$pid))}">
+						<i class="fa fa-times"></i>
+					</a>
+				</div>	
+			</a>  
 		</div>  
 	</volist>
 	<div class="clear"></div>

@@ -1,7 +1,7 @@
 $(function(){
 	$(window).bind("load",function(){
 		var height,width,div;
-		$('img').each(function(){
+		$('img.lazy').each(function(){
 			height = $(this).height();
 			width = $(this).width();
 			div = height/width;
@@ -11,11 +11,12 @@ $(function(){
 				$(this).css({'height':'150px'});
 			}
 			$('div.img').hover(function(){
-				$(this).find('a').css({'display':'block'});
+				$(this).find('a#images').css({'display':'block'});
 			},function(){
-				$(this).find('a').css({'display':'none'});
+				$(this).find('a#images').css({'display':'none'});
 			})
-		})		
+			$(this).fadeIn(500);	
+		})
 	})
-	$("img.lazy").lazyload({effect: "fadeIn"});
+	//$("img.lazy").lazyload({effect: "fadeIn"});
 })

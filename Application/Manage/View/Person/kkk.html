@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="D:/Wampserver/www/jquery-2.1.1.js"></script>
+	<script type="text/javascript">
+		function click_scroll() {
+			var scroll_offset = $("#pos").offset().top-100; //得到pos这个div层的offset，包含两个值，top和left
+			console.log(scroll_offset);
+
+			$("body,html").animate({
+				scrollTop:scroll_offset //让body的scrollTop等于pos的top，就实现了滚动
+			},1000);
+			console.log(scroll_offset);
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="点击button跳转" onclick="click_scroll();" />...
+	k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>
+	<div id="pos">滚动到这里</div>
+	k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>k<br>
+</body>
+</html>

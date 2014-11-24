@@ -16,14 +16,17 @@
  </head>
  <body>
  	<div id="header">
- 		<div class="logo"><h3>logo</h3></div>
- 		<ul>
- 			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
- 			<li><a href="<?php echo U('Person/index');?>">人物</a></li>
- 			<li><a href="<?php echo U('Group/index');?>">群组</a></li>
- 			<li><a href="<?php echo U('Info/show');?>">个人信息</a></li>
+ 		<div class="logo">
+ 			<img src="/facecloud/Public/picture/logo.jpg" height="75px">
+ 		</div>
+ 		<ul class="base-ul">
+ 			<li class="base-li"><a href="<?php echo U('Index/index');?>">首页</a></li>
+ 			<li class="base-li"><a href="<?php echo U('Person/index');?>">人物</a></li>
+ 			<li class="base-li"><a href="<?php echo U('Group/index');?>">群组</a></li>
+ 			<li class="base-li"><a>个人信息</a></li>
  		</ul>
  	</div>
+ 	
  	<div id="content">
  		
 	<div id="left">
@@ -49,7 +52,7 @@
 				<input type="hidden" name="id" value="<?php echo ($data['id']); ?>">
 			</div>
 			<div class="edit">
-				姓名：<input class=name type="text" readonly="readonly"  name="name" value="<?php echo ($data['name']); ?>" />
+				姓名：<input class=name type="text" readonly="readonly"  name="name" value="<?php echo ($data['name']); ?>"  title="双击进行修改" />
 				
 			</div>
 			<div class="edit edit-sex">
@@ -60,11 +63,11 @@
 					<?php if(($data["sex"]) == "W"): ?>checked="checked"<?php endif; ?> /> 女<br>
 			</div>
 			<div class="edit">
-				职业：<input class="profession" type="text" readonly="readonly"   name="profession" value="<?php echo ($data['profession']); ?>" />
+				职业：<input class="profession" type="text" readonly="readonly"   name="profession" value="<?php echo ($data['profession']); ?>"  title="双击进行修改" />
 			</div>
 			<div class="introduce">
 				<div class="label">简介：</div>
-				<textarea class="introduce" id="introduce" readonly="readonly"  name="introduce" ><?php echo ($data['introduce']); ?></textarea>
+				<textarea class="introduce"   title="双击进行修改" id="introduce" readonly="readonly"  name="introduce" ><?php echo ($data['introduce']); ?></textarea>
 				<script type="text/javascript" id="ckeditor"></script>
 			</div>
 			

@@ -14,6 +14,10 @@ div.img {
 	margin-left: 24px;
 	margin-top: 12px;
 	position: relative;
+	border: 5px solid white;
+}
+img {
+	display: none;
 }
 a#images {
 	position: absolute;
@@ -32,11 +36,30 @@ a#images i {
 	margin-top: 3px;
 }
 div.img:hover {
-	border: 2px solid rgb(35,117,200);
+	border: 5px solid rgb(35,117,200);
 }
 a#images:hover {
 	opacity: 0.8;
 }
 div.clear {
 	clear:both;
+}
+a#imagesToShow {
+	position: fixed;
+	bottom: 50;
+	right: 130px;
+	opacity: 0.7;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	border-radius: 33px;
+}
+a#imagesToShow p {
+	margin-top: 10px;
+}
+a#imagesToShow:hover {
+	opacity:0.9;
 }

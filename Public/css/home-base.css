@@ -19,14 +19,14 @@ div.logo {
 	margin-left: 25px;
 	margin-top: 10px;
 }
-ul.base-ul {
+ul#base-ul {
 	float: right;
 	height: 100%;
 	margin-top: 0px;
 	margin-right:10px;
 	list-style-type: none;
 }
-li.base-li {
+li#base-li {
 	height: 100%;
 	width: 70px;
 	display: inline-block;
@@ -34,6 +34,7 @@ li.base-li {
 }
 a {
 	cursor: pointer;
+	text-decoration: none;
 }
 div#content {
 	margin-top: 100px;

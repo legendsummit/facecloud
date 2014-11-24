@@ -11,14 +11,17 @@
  </head>
  <body>
  	<div id="header">
- 		<div class="logo"><h3>logo</h3></div>
- 		<ul>
- 			<li><a href="{:U('Index/index')}">首页</a></li>
- 			<li><a href="{:U('Person/index')}">人物</a></li>
- 			<li><a href="{:U('Group/index')}">群组</a></li>
- 			<li><a href="{:U('Info/show')}">个人信息</a></li>
+ 		<div class="logo">
+ 			<img src="__PUBLIC__/picture/logo.jpg" height="75px">
+ 		</div>
+ 		<ul class="base-ul">
+ 			<li class="base-li"><a href="{:U('Index/index')}">首页</a></li>
+ 			<li class="base-li"><a href="{:U('Person/index')}">人物</a></li>
+ 			<li class="base-li"><a href="{:U('Group/index')}">群组</a></li>
+ 			<li class="base-li"><a>个人信息</a></li>
  		</ul>
  	</div>
+ 	<block name="first-left"></block>
  	<div id="content">
  		<block name="main"></block>
  	</div>

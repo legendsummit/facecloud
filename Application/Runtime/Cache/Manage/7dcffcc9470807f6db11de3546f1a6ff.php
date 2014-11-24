@@ -13,31 +13,52 @@
 
    
 	<script type="text/javascript" src="/facecloud/Public/js/show.js"></script>
+	<script type="text/javascript" src="/facecloud/Public/js/jquery.scrollTo.js"></script>
 
  </head>
  <body>
  	<div id="header">
- 		<div class="logo"><h3>logo</h3></div>
- 		<ul>
- 			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
- 			<li><a href="<?php echo U('Person/index');?>">人物</a></li>
- 			<li><a href="<?php echo U('Group/index');?>">群组</a></li>
- 			<li><a href="<?php echo U('Info/show');?>">个人信息</a></li>
+ 		<div class="logo">
+ 			<img src="/facecloud/Public/picture/logo.jpg" height="75px">
+ 		</div>
+ 		<ul class="base-ul">
+ 			<li class="base-li"><a href="<?php echo U('Index/index');?>">首页</a></li>
+ 			<li class="base-li"><a href="<?php echo U('Person/index');?>">人物</a></li>
+ 			<li class="base-li"><a href="<?php echo U('Group/index');?>">群组</a></li>
+ 			<li class="base-li"><a>个人信息</a></li>
  		</ul>
  	</div>
+ 	
+	<div class="underline"></div>
+	<div id="first-left">
+ 		<ul class="show-ul">
+ 			<li class="show-li">
+ 				<a href="#" class="one" title="简介"><i class='fa fa-dot-circle-o'></i></a>
+ 			</li>
+ 			<li class="show-li">
+ 				<a href="#" class="two" title="早年经历"><i class="fa fa-circle-thin"></i></a>
+ 			</li>
+ 			<li class="show-li">
+ 				<a href="#" class="three" title="演绎经历"><i class="fa fa-circle-thin"></i></a>
+ 			</li>
+ 			<li class="show-li">
+ 				<a href="#" class="four" title="个人生活"><i class="fa fa-circle-thin"></i></a>
+ 			</li>
+ 		</ul>	
+ 	</div>
+
  	<div id="content">
  		
 	<div class="introduce">
 		<?php $urls=getPersonImageUrl($data['name']);?>
 		<div class="img">
-			<img src="<?php echo ($urls[0]); ?>" width="170">
+			<img class="show" src="<?php echo ($urls[0]); ?>" width="170">
 			<div class="edit"><a class="edit" href="<?php echo U('showimages',array('pid'=>$data['id']));?>"><i class="fa fa-picture-o"></i>图集</a></div>
-		</div>
-		<?php echo ($data['name']); ?>&nbsp;
-		性别:<?php if(($data['sex']) == "M"): ?>男<?php else: ?>女<?php endif; ?>&nbsp;
-		职业:<?php echo ($data['profession']); ?>&nbsp;
-		<a id="index" href="<?php echo U('edit',array('id'=>$data['id']));?>">编辑</a><br>
-		简介:<div><?php echo ($data['introduce']); ?></div>
+		</div>		
+		<a id="show" href="<?php echo U('edit',array('id'=>$data['id']));?>">
+			<i class="fa fa-pencil"></i>编辑
+		</a>
+		<div><?php echo ($data['introduce']); ?></div>
 	</div>
 
  	</div>

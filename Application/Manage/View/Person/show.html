@@ -5,22 +5,41 @@
 <block name="extra_css">
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/show.css">
 </block>
+<block name="first-left">
+	<div class="underline"></div>
+	<div id="first-left">
+ 		<ul class="show-ul">
+ 			<li class="show-li">
+ 				<a href="#" class="one" title="简介"><i class='fa fa-dot-circle-o'></i></a>
+ 			</li>
+ 			<li class="show-li">
+ 				<a href="#" class="two" title="早年经历"><i class="fa fa-circle-thin"></i></a>
+ 			</li>
+ 			<li class="show-li">
+ 				<a href="#" class="three" title="演绎经历"><i class="fa fa-circle-thin"></i></a>
+ 			</li>
+ 			<li class="show-li">
+ 				<a href="#" class="four" title="个人生活"><i class="fa fa-circle-thin"></i></a>
+ 			</li>
+ 		</ul>	
+ 	</div>
+</block>
 <block name="main">
 	<div class="introduce">
 		<?php $urls=getPersonImageUrl($data['name']);?>
 		<div class="img">
-			<img src="{$urls[0]}" width="170">
+			<img class="show" src="{$urls[0]}" width="170">
 			<div class="edit"><a class="edit" href="{:U('showimages',array('pid'=>$data['id']))}"><i class="fa fa-picture-o"></i>图集</a></div>
-		</div>
-		{$data['name']}&nbsp;
-		性别:<eq name="data['sex']" value="M">男<else/>女</eq>&nbsp;
-		职业:{$data['profession']}&nbsp;
-		<a id="index" href="{:U('edit',array('id'=>$data['id']))}">编辑</a><br>
-		简介:<div>{$data['introduce']}</div>
+		</div>		
+		<a id="show" href="{:U('edit',array('id'=>$data['id']))}">
+			<i class="fa fa-pencil"></i>编辑
+		</a>
+		<div>{$data['introduce']}</div>
 	</div>
 </block>
 <block name="extra_js">
 	<script type="text/javascript" src="__PUBLIC__/js/show.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.scrollTo.js"></script>
 </block>
 <a href="{:U(edit,array('name'=>$data['name']))}">修改</a>
 	<a href="{:U('index')}">返回首页</a>

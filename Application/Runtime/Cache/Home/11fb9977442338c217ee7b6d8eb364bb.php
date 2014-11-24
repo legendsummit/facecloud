@@ -3,9 +3,9 @@
  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <title>结果</title>
    <link rel="stylesheet" type="text/css" href="/facecloud/Public/font-awesome-4.2.0/css/font-awesome.css">
-   <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/base.css">
+   <link rel="stylesheet" type="text/css" href="/facecloud/Public/css/home-base.css">
    <script type="text/javascript" src="/facecloud/Public/jquery-2.1.1.js"></script>
-   <script type="text/javascript" src="/facecloud/Public/js/base.js"></script>
+   <script type="text/javascript" src="/facecloud/Public/js/home-base.js"></script>
    
 	<link rel="stylesheet" type="text/css" href="/facecloud/Public/css/edit.css">
 
@@ -13,12 +13,14 @@
  </head>
  <body>
  	<div id="header">
- 		<div class="logo"><h3>logo</h3></div>
- 		<ul>
- 			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
- 			<li><a href="<?php echo U('Face/identify');?>">图像识别</a></li>
- 			<li><a href="<?php echo U('Person/index');?>">我的词条</a></li>
- 			<li><a href="<?php echo U('User/show');?>">个人信息</a></li>
+ 		<div class="logo">
+ 			<img src="/facecloud/Public/picture/logo.jpg" height="75px">
+ 		</div>
+ 		<ul id="base-ul">
+ 			<li id="base-li"><a href="<?php echo U('Index/index');?>">首页</a></li>
+ 			<li id="base-li"><a href="<?php echo U('Face/identify');?>">图像识别</a></li>
+ 			<li id="base-li"><a href="<?php echo U('Person/index');?>">我的词条</a></li>
+ 			<li id="base-li"><a href="<?php echo U('User/show');?>">个人信息</a></li>
  		</ul>
  	</div>
  	<div id="content">

@@ -16,9 +16,9 @@
  		<div class="logo"><h3>logo</h3></div>
  		<ul>
  			<li><a href="<?php echo U('Index/index');?>">首页</a></li>
- 			<li><a href="<?php echo U('Person/index');?>">人物</a></li>
- 			<li><a href="<?php echo U('Group/index');?>">群组</a></li>
- 			<li><a href="<?php echo U('Info/show');?>">个人信息</a></li>
+ 			<li><a href="<?php echo U('Face/identify');?>">图像识别</a></li>
+ 			<li><a href="<?php echo U('Person/index');?>">我的词条</a></li>
+ 			<li><a href="<?php echo U('User/show');?>">个人信息</a></li>
  		</ul>
  	</div>
  	<div id="content">
@@ -27,7 +27,7 @@
 		用户名:<input type="text"  name="user" /><br>
 		昵称: <input type="text" name="name"><br>
 		密码: <input type="password" name="password"><br>
-		手机: <input type="text" name="phnoe"><br>
+		手机: <input type="text" name="phone"><br>
 		邮箱: <input type="text" name="email"><br>
 		<input type="submit" value="创建" />
 	</form>

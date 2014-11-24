@@ -2,7 +2,7 @@ div#content {
 	height:80%;
 }
 div#left {
-	width: 60%;
+	width: 65%;
 	height: 95%;
 	color:#757575;
 	margin-top: 10px;
@@ -11,6 +11,7 @@ div#left {
 	margin-left: 10px;
 	border-radius: 10px;
 	float:left;
+	box-shadow: 0px 1px 6px #888888;
 }
 div#left-header {
 	width: 100%;
@@ -21,7 +22,7 @@ div#left-header {
 	border-radius: 10px 10px 0px 0px;
 }
 div#right {
-	width: 35%;
+	width: 30%;
 	height: 95%;
 	margin-top: 10px;
 	background-color: rgb(243,244,246);
@@ -29,6 +30,7 @@ div#right {
 	margin-right: 10px;
 	border-radius: 10px;
 	float:right;
+	box-shadow: 0px 1px 6px #888888;
 }
 div#right-header {
 	width: 100%;
@@ -132,17 +134,18 @@ div.introduce {
 	height:40%;
 }
 textarea.introduce {
-	width: 490px;
-	height: 200px;
+	width: 515px;
+	height: 240px;
 	font-size: 16px;
 	color: #757575;
+	line-height: 25px;
 	padding-left: 10px;
 	border: 1px solid #757575;
 	background-color: rgb(243,244,246);
 }
 input.edit-submit {
 	color:white;
-	margin-top: 20px;
+	margin-top: 60px;
 	text-align:center;
 	line-height: 30px;
 	font-size: 18px;

@@ -3,20 +3,22 @@
  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <block name="title"><title>标题</title></block>
    <link rel="stylesheet" type="text/css" href="__PUBLIC__/font-awesome-4.2.0/css/font-awesome.css">
-   <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/base.css">
+   <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/home-base.css">
    <script type="text/javascript" src="__PUBLIC__/jquery-2.1.1.js"></script>
-   <script type="text/javascript" src="__PUBLIC__/js/base.js"></script>
+   <script type="text/javascript" src="__PUBLIC__/js/home-base.js"></script>
    <block name="extra_css"></block>
    <block name="extra_js"></block>
  </head>
  <body>
  	<div id="header">
- 		<div class="logo"><h3>logo</h3></div>
- 		<ul>
- 			<li><a href="{:U('Index/index')}">首页</a></li>
- 			<li><a href="{:U('Face/identify')}">图像识别</a></li>
- 			<li><a href="{:U('Person/index')}">我的词条</a></li>
- 			<li><a href="{:U('User/show')}">个人信息</a></li>
+ 		<div class="logo">
+ 			<img src="__PUBLIC__/picture/logo.jpg" height="75px">
+ 		</div>
+ 		<ul id="base-ul">
+ 			<li id="base-li"><a href="{:U('Index/index')}">首页</a></li>
+ 			<li id="base-li"><a href="{:U('Face/identify')}">图像识别</a></li>
+ 			<li id="base-li"><a href="{:U('Person/index')}">我的词条</a></li>
+ 			<li id="base-li"><a href="{:U('User/show')}">个人信息</a></li>
  		</ul>
  	</div>
  	<div id="content">

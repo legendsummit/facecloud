@@ -35,7 +35,7 @@
 				<input type="hidden" name="id" value="{$data['id']}">
 			</div>
 			<div class="edit">
-				姓名：<input class=name type="text" readonly="readonly"  name="name" value="{$data['name']}" />
+				姓名：<input class=name type="text" readonly="readonly"  name="name" value="{$data['name']}"  title="双击进行修改" />
 				
 			</div>
 			<div class="edit edit-sex">
@@ -46,11 +46,11 @@
 					<eq name='data["sex"]' value='W'>checked="checked"</eq> /> 女<br>
 			</div>
 			<div class="edit">
-				职业：<input class="profession" type="text" readonly="readonly"   name="profession" value="{$data['profession']}" />
+				职业：<input class="profession" type="text" readonly="readonly"   name="profession" value="{$data['profession']}"  title="双击进行修改" />
 			</div>
 			<div class="introduce">
 				<div class="label">简介：</div>
-				<textarea class="introduce" id="introduce" readonly="readonly"  name="introduce" >{$data['introduce']}</textarea>
+				<textarea class="introduce"   title="双击进行修改" id="introduce" readonly="readonly"  name="introduce" >{$data['introduce']}</textarea>
 				<script type="text/javascript" id="ckeditor"></script>
 			</div>
 			
