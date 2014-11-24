@@ -12,10 +12,10 @@
 		}
 
 		public function login_handle(){
-			$user = M('user');
+			$User = M('user');
 			$data = I('post.');
 			$data['password'] = md5($data['password']);
-			$user = $user->where($data)->find();
+			$user = $User->where($data)->find();
 			//管理员存在
 			if($user){
 				if($user['is_fobid']){
@@ -23,7 +23,8 @@
 				}
 				else{
 					$this->note = "登陆成功";
-					$_SESSION['user']  = $data['user'];
+					$_SESSION['user']  = $user['user'];
+					$_SESSION['uid']  = $user['id'];
 					$this->redirect('Index/index');
 				}
 			}

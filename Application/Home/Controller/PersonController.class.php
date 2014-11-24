@@ -10,10 +10,10 @@ use Common\Controller\BasePersonController;
         }
       }
   		public function index(){
-  			R('Common/BasePerson/index',array('user'=>$_SESSION['user']));
+  			R('Common/BasePerson/index',array('uid'=>$_SESSION['uid']));
   		}
   		public function edit(){
-  			if(!check($_SESSION['user']))
+  			if(!check($_SESSION['uid']))
   				$this->redirect('index');
   			R('Common/BasePerson/edit');
   		}	

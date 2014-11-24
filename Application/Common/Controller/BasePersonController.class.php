@@ -4,17 +4,20 @@ namespace Common\Controller;
 use Think\Controller;
 header("Content-type:text/html;charset=utf-8");
 class BasePersonController extends Controller {
-  public function index($user=null){
+  public function index($uid=null){
     	$Data = M('person'); // 实例化Data数据对象
-		$count      = $Data->count();// 查询满足要求的总记录数 $map表示查询条件
+    	if($uid==null)
+    		$count  = $Data->count();// 查询满足要求的总记录数 $map表示查询条件
+    	else 
+    		$count	= $Data->where(array('uid'=>$uid))->count();
 		$Page       = new \Think\Page($count,10);// 实例化分页类 传入总记录数
 		$show       = $Page->show();// 分页显示输出
 		// 进行分页数据查询
-		if($user==null)
-			$list = $Data->limit($Page->firstRow.','.$Page->listRows)->select();
+		if($uid==null)
+			$list = $Data->limit($Page->firstRow.','.$Page->listRows)->select();	
 		else
-			$list = $Data->limit($Page->firstRow.','.$Page->listRows)
-		     ->where(array('user'=>$user))->select();
+			$list = $Data->where(array('uid'=>$uid))->limit($Page->firstRow.','.$Page->listRows)->select();
+		
 		$this->assign('data',$list);// 赋值数据集
 		$this->assign('page',$show);// 赋值分页输出
 		$this->display(); // 输出模板
@@ -45,6 +48,8 @@ class BasePersonController extends Controller {
 			//获得person_id
 			$data['person_id']=$responseperson['person_id'];
 			//添加用户到数据库
+			$data['user'] = $_SESSION['user'];
+			$data['uid'] = $_SESSION['uid'];
 			$person = M("person");
 			$person->add($data); 
 			//下面需要把person放到group中
